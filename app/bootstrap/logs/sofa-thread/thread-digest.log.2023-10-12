@@ -1,8 +1,0 @@
-2023-10-12 10:41:59,614 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
-2023-10-12 10:41:59,618 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
-2023-10-12 10:44:27,684 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
-2023-10-12 10:44:27,688 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
-2023-10-12 10:45:26,168 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
-2023-10-12 10:45:26,170 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
-2023-10-12 10:45:52,047 INFO  main  - Thread pool 'sofa-boot-health-check' started with period: 5000 MILLISECONDS
-2023-10-12 10:45:52,050 INFO  main  - Thread pool with name 'sofa-boot-health-check' registered
