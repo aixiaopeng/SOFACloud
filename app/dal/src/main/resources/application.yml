@@ -1,0 +1,7 @@
+#在application.properties/或者application.yml文件中没有添加数据库配置信息.
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/PRD?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
