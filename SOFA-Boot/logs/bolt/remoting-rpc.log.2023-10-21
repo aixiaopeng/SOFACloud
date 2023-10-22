@@ -1,0 +1,18 @@
+2023-10-21 15:06:36,586 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:14:04,051 WARN  [RpcServer#328] [SOFA-RPC-ShutdownHook] Rpc Server stopped!
+2023-10-21 15:16:34,087 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:17:22,697 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:17:22,703 WARN  [RpcServer#328] [main] Rpc Server stopped!
+2023-10-21 15:22:32,741 WARN  [RpcServer#328] [SOFA-RPC-ShutdownHook] Rpc Server stopped!
+2023-10-21 15:22:41,571 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:26:56,451 WARN  [RpcServer#328] [SOFA-RPC-ShutdownHook] Rpc Server stopped!
+2023-10-21 15:27:09,523 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:28:30,751 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:28:30,758 WARN  [RpcServer#328] [main] Rpc Server stopped!
+2023-10-21 15:31:56,446 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:31:56,452 WARN  [RpcServer#328] [main] Rpc Server stopped!
+2023-10-21 15:37:48,922 WARN  [RpcServer#328] [SOFA-RPC-ShutdownHook] Rpc Server stopped!
+2023-10-21 15:37:59,583 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 15:55:24,507 WARN  [RpcServer#328] [SpringApplicationShutdownHook] Rpc Server stopped!
+2023-10-21 15:55:33,102 WARN  [RpcServer#900] [main] [server side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-21 17:33:42,068 WARN  [RpcServer#328] [SpringApplicationShutdownHook] Rpc Server stopped!

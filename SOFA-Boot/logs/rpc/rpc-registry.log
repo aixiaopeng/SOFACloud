@@ -1,0 +1,117 @@
+2023-10-22 13:42:16,810 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 13:42:16,820 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 13:42:16,820 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 13:42:16,825 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 13:42:16,825 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 13:42:18,833 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:34:30,172 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:34:30,174 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:34:30,192 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:34:30,192 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:34:48,800 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:34:48,807 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 14:34:48,807 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 14:34:48,811 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:34:48,812 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 14:34:50,818 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:40:35,943 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:40:35,943 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:40:35,945 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:40:35,946 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:40:47,973 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:40:47,978 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 14:40:47,978 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 14:40:47,983 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:40:47,983 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 14:40:49,980 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:42:15,685 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:42:15,686 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:42:15,687 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:42:15,688 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:42:27,655 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:42:27,661 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 14:42:27,661 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 14:42:27,666 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:42:27,667 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 14:42:29,674 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:54:19,169 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:54:19,170 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:54:19,174 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:54:19,174 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:54:34,642 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:54:34,652 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 14:54:34,652 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 14:54:34,656 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:54:34,657 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 14:54:36,675 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:57:38,020 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:57:38,020 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:57:38,022 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:57:38,023 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 14:58:24,467 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:58:24,472 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 14:58:24,473 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 14:58:24,483 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 14:58:24,484 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 14:58:26,476 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:07:52,778 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:07:52,779 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:07:52,782 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:07:52,783 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:08:06,716 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:08:06,721 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 15:08:06,721 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 15:08:06,726 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:08:06,727 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 15:08:08,733 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:40:34,806 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:40:34,807 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:40:34,809 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:40:34,809 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:40:47,844 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:40:47,849 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 15:40:47,849 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 15:40:47,855 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:40:47,855 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 15:40:49,850 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:55:01,074 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:55:01,075 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:55:01,077 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:55:01,078 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:55:14,370 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:55:14,375 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 15:55:14,375 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 15:55:14,381 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:55:14,382 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 15:55:16,380 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:59:28,731 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:59:28,731 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:59:28,733 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:59:28,734 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 15:59:40,539 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:59:40,545 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 15:59:40,545 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 15:59:40,550 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 15:59:40,551 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 15:59:42,551 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 18:28:09,367 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 18:28:09,368 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 18:28:09,371 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 18:28:09,372 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 20:44:13,885 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 20:44:13,892 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 20:44:13,893 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 20:44:13,898 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 20:44:13,899 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 20:44:15,907 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:02:05,718 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:02:05,719 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 21:02:05,726 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:02:05,726 INFO  SpringApplicationShutdownHook    com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000002: 注销 RPC 服务：[com.service.ProductTestService:1.0@DEFAULT]	数量: [1] 
+2023-10-22 21:02:57,996 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:12:29,490 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:12:29,496 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布开始 
+2023-10-22 21:12:29,496 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000001: 发布 RPC 服务: [com.service.ProductTestService:1.0@DEFAULT] 
+2023-10-22 21:12:29,500 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Write backup file to C:\Users\15012\localFileRegistry\localRegistry.reg
+2023-10-22 21:12:29,502 INFO  main                             com.alipay.sofa.rpc.registry.local.LocalRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:1.0@DEFAULT]发布结束 
+2023-10-22 21:12:31,504 INFO  SOFA-LocalRegistry-Back-Load-4-T1 com.alipay.sofa.rpc.registry.local.LocalRegistryHelper - Load backup file from C:\Users\15012\localFileRegistry\localRegistry.reg

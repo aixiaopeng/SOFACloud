@@ -1,3 +1,71 @@
+2023-10-21 11:13:41,833 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:14:20,027 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:15:17,743 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:15:31,709 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:24:32,359 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:25:05,281 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 11:25:23,838 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:05:49,392 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:05:54,739 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-621754426
+2023-10-21 15:05:54,741 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:05:55,221 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:05:55,268 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:05:55,269 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:06:31,823 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:06:35,763 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:06:35,764 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:06:36,069 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:06:36,069 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:06:36,089 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:06:36,089 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:06:44,950 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:06:48,762 INFO  main                             - Registering component: reference:com.service.ProductTestService:#1810823115
+2023-10-21 15:06:48,763 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:06:49,356 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:06:49,391 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:06:49,392 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:07:53,975 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:09:23,981 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:10:54,680 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:11:01,054 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-621754426
+2023-10-21 15:11:01,054 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:11:01,674 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:11:01,716 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:11:01,717 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:12:31,334 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:12:52,282 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:14:04,497 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:14:04,497 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:14:04,498 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:14:04,498 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:14:10,366 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:16:29,473 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:16:33,359 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:16:33,359 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:16:33,668 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:16:33,669 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:16:33,691 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:16:33,691 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:17:17,597 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:17:20,561 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:17:20,562 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:17:21,415 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:17:22,362 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:17:22,362 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:17:22,364 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:17:22,364 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:17:22,373 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:17:22,373 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:21:26,351 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:26,352 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:21:26,352 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:26,352 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:21:26,352 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:26,352 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:21:32,502 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:21:36,900 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-2144005137
+2023-10-21 15:21:36,903 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:37,304 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
 2023-10-21 15:21:37,308 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#-2144005137]
 com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
 	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
@@ -49,6 +117,12 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.Nac
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 37 common frames omitted
+2023-10-21 15:21:37,317 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:37,317 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:21:53,538 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:21:57,009 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:21:57,010 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:57,409 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
 2023-10-21 15:21:57,414 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#-315929149]
 com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
 	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
@@ -100,6 +174,23 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.Nac
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 37 common frames omitted
+2023-10-21 15:21:57,416 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:21:57,416 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:22:33,197 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:22:33,197 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:22:33,198 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:22:33,198 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:22:36,774 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:22:40,810 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:22:40,810 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:22:41,121 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:22:41,122 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:22:41,143 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:22:41,143 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:25:03,919 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:25:07,462 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:25:07,463 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:25:07,852 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
 2023-10-21 15:25:07,857 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#-315929149]
 com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
 	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
@@ -151,6 +242,23 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.Nac
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 37 common frames omitted
+2023-10-21 15:25:07,859 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:25:07,859 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:26:56,883 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:26:56,885 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:26:56,885 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:26:56,885 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:27:04,823 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:27:08,770 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:27:08,770 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:27:09,108 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:27:09,108 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:27:09,133 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:27:09,133 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:27:18,659 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:27:21,482 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:27:21,482 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:27:21,875 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
 2023-10-21 15:27:21,880 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#-315929149]
 com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
 	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
@@ -202,6 +310,28 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.Nac
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 37 common frames omitted
+2023-10-21 15:27:21,882 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:27:21,882 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:25,933 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:28:28,721 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:28:28,723 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:29,170 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:30,351 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:28:30,351 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:30,354 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:30,354 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:30,366 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:30,366 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:28:48,285 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:48,286 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:48,286 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:48,286 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:48,286 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:48,286 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:28:51,715 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:28:54,656 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-315929149
+2023-10-21 15:28:54,657 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:55,049 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
 2023-10-21 15:28:55,053 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#-315929149]
 com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
 	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
@@ -253,3 +383,62 @@ Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.Nac
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
 	... 37 common frames omitted
+2023-10-21 15:28:55,055 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:28:55,055 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:31:50,858 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:31:53,994 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-748916542
+2023-10-21 15:31:53,995 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:31:54,783 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:31:56,027 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:31:56,027 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:31:56,030 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:31:56,030 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:31:56,041 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:31:56,041 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:37:49,396 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:37:49,396 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:37:49,396 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:37:49,396 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:37:54,442 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:37:58,861 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:37:58,861 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:37:59,179 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:37:59,179 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:37:59,201 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:37:59,201 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:55:24,978 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:24,979 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:24,979 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:24,979 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:27,942 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:55:32,390 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-21 15:55:32,390 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:32,708 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:32,708 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:32,730 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:32,730 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-21 15:55:50,944 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:50,945 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:50,945 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:50,945 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:50,945 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:55:50,946 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:55:57,443 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:56:00,306 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-748916542
+2023-10-21 15:56:00,307 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:56:01,270 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:56:01,273 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 15:56:01,274 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 15:59:55,304 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 15:59:59,037 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-748916542
+2023-10-21 15:59:59,038 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 16:00:00,032 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 16:00:00,036 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 16:00:00,036 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 16:08:44,121 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 17:33:42,973 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 17:33:42,979 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 17:33:42,979 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-21 17:33:42,979 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-21 21:28:14,836 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-21 21:39:32,962 INFO  main                             - SOFABoot Runtime Starting!

@@ -1,0 +1,1 @@
+{"time":"2023-10-21 15:18:33.664","stat.key":{"method":"RPCTest","remote.app":"PRD-Order","service":"com.service.ProductTestService:1.0"},"count":1,"total.cost.milliseconds":9,"success":"Y"}

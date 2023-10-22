@@ -1,0 +1,2 @@
+{"time":"2023-10-21 15:18:20.900","stat.key":{"method":"RPCTest","local.app":"PRD-Order","service":"com.service.ProductTestService:1.0"},"count":1,"total.cost.milliseconds":103,"success":"Y"}
+{"time":"2023-10-21 15:32:54.354","stat.key":{"method":"RPCTest","local.app":"PRD-Order","service":"com.service.ProductTestService:1.0"},"count":1,"total.cost.milliseconds":17,"success":"N"}

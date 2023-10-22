@@ -14,9 +14,12 @@
     <name>SOFA-Boot</name>
     <description>SOFA-Boot</description>
     <modules>
-        <module>Security</module>
-        <module>Common</module>
-        <module>Users</module>
+        <module>PRD-Security</module>
+        <module>PRD-Common</module>
+        <module>PRD-Users</module>
+        <module>PRD-Product</module>
+        <module>PRD-Order</module>
+        <module>PRD-Gateway</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -78,6 +81,14 @@
             <artifactId>lombok</artifactId>
             <version>1.18.20</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>rpc-sofa-boot-starter</artifactId>
+        </dependency>
+
+
+
     </dependencies>
 
     <build>

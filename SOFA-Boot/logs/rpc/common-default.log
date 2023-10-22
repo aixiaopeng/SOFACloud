@@ -1,0 +1,414 @@
+2023-10-21 15:05:54,794 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:41828
+2023-10-21 15:05:54,804 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:05:54,819 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:05:55,097 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:05:55,097 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:05:55,114 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:05:55,421 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:05:55,423 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:05:55,427 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:05:55,427 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:05:55,427 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:05:55,428 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:06:35,784 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:38056
+2023-10-21 15:06:35,790 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:06:35,798 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:06:36,064 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:06:36,064 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:06:36,073 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:06:36,611 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-21 15:06:48,812 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:9592
+2023-10-21 15:06:48,822 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:06:48,832 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:06:49,104 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:06:49,104 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:06:49,122 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:06:49,515 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:06:49,516 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:06:49,520 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:06:49,520 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:06:49,520 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:06:49,521 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:11:01,105 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:3444
+2023-10-21 15:11:01,115 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:11:01,126 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:11:01,398 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:11:01,398 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:11:01,416 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:11:01,778 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:11:01,779 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:11:01,782 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:11:01,782 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:11:01,782 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:11:01,782 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:14:04,045 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:14:04,047 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:14:04,053 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:14:04,054 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:14:04,054 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:14:04,054 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:16:33,378 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:15016
+2023-10-21 15:16:33,385 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:16:33,393 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:16:33,665 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:16:33,665 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:16:33,672 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:16:34,110 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-21 15:17:20,611 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:40108
+2023-10-21 15:17:20,619 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:17:20,628 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:17:20,900 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:17:20,900 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:17:20,919 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:17:22,367 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:17:49,380 INFO  http-nio-8083-exec-4             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@4438974a
+2023-10-21 15:17:49,753 INFO  SOFA-SEV-BOLT-BIZ-12200-3-T1     - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@185e8df8
+2023-10-21 15:21:25,686 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:21:25,687 INFO  SOFA-RPC-ShutdownHook            - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:21:25,687 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:21:25,694 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:21:25,694 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:21:25,694 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:21:25,694 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:21:36,957 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:38516
+2023-10-21 15:21:36,965 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:21:36,974 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:21:37,254 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:21:37,254 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:21:37,273 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:21:37,367 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:21:37,371 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:21:37,371 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:21:37,371 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:21:37,371 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:21:57,067 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:36324
+2023-10-21 15:21:57,075 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:21:57,085 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:21:57,362 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:21:57,362 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:21:57,382 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:21:57,456 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:21:57,461 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:21:57,461 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:21:57,461 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:21:57,461 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:22:32,735 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:22:32,738 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:22:32,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:22:32,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:22:32,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:22:32,744 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:22:40,831 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:22888
+2023-10-21 15:22:40,838 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:22:40,846 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:22:41,117 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:22:41,117 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:22:41,125 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:25:07,516 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:2764
+2023-10-21 15:25:07,525 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:25:07,535 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:25:07,807 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:25:07,807 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:25:07,825 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:25:07,897 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:25:07,901 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:25:07,901 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:25:07,901 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:25:07,901 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:26:56,447 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:26:56,449 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:26:56,453 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:26:56,453 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:26:56,453 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:26:56,453 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:27:08,791 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:2672
+2023-10-21 15:27:08,800 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:27:08,809 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:27:09,103 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:27:09,103 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:27:09,112 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:27:21,535 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:23708
+2023-10-21 15:27:21,544 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:27:21,554 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:27:21,825 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:27:21,825 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:27:21,844 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:27:21,917 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:27:21,919 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:27:21,919 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:27:21,919 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:27:21,920 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:28:28,776 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:25436
+2023-10-21 15:28:28,784 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:28:28,795 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:28:29,066 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:28:29,066 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:28:29,084 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:28:30,357 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:28:47,865 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:28:47,866 INFO  SOFA-RPC-ShutdownHook            - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:28:47,866 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:28:47,868 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:28:47,869 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:28:47,869 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:28:47,869 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:28:54,708 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:42800
+2023-10-21 15:28:54,718 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:28:54,728 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:28:55,003 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:28:55,003 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:28:55,022 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:28:55,092 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:28:55,094 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:28:55,094 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:28:55,094 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:28:55,094 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:31:54,047 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:16404
+2023-10-21 15:31:54,057 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:31:54,068 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:31:54,354 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:31:54,355 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:31:54,375 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:31:56,033 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:32:17,165 INFO  http-nio-8083-exec-2             - Load tracer impl success: sofaTracer, com.alipay.sofa.rpc.tracer.sofatracer.RpcSofaTracer@6d65d90f
+2023-10-21 15:37:48,917 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:37:48,921 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:37:48,926 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:37:48,927 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:37:48,927 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:37:48,927 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:37:58,883 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:39996
+2023-10-21 15:37:58,891 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:37:58,900 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:37:59,174 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:37:59,174 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:37:59,182 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:37:59,728 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-21 15:55:24,504 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:55:24,506 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:55:32,412 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:41864
+2023-10-21 15:55:32,420 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:55:32,429 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:55:32,702 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:55:32,702 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:55:32,710 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-21 15:55:33,221 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-21 15:55:50,505 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:55:50,506 INFO  SOFA-RPC-ShutdownHook            - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-1
+2023-10-21 15:55:50,506 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:55:50,510 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:55:50,510 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:55:50,510 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:55:50,511 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:56:00,359 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:42920
+2023-10-21 15:56:00,369 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:56:00,379 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:56:00,655 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:56:00,656 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:56:00,674 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:56:01,307 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 15:56:01,308 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 15:56:01,311 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 15:56:01,311 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 15:56:01,311 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 15:56:01,311 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 15:59:59,094 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:37980
+2023-10-21 15:59:59,104 INFO  main                             - Install Module: fault-tolerance
+2023-10-21 15:59:59,114 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-21 15:59:59,388 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-21 15:59:59,388 INFO  main                             - Install Module: sofaTracer
+2023-10-21 15:59:59,407 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 16:00:00,072 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 16:00:00,075 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-21 16:00:00,078 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-21 16:00:00,078 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-21 16:00:00,078 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-21 16:00:00,079 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-21 17:33:41,962 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-21 17:33:42,037 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:02:24,757 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:26620
+2023-10-22 13:02:24,771 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 13:02:24,784 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 13:02:25,053 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 13:02:25,053 INFO  main                             - Install Module: sofaTracer
+2023-10-22 13:02:25,063 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:04:32,866 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 13:04:32,868 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:04:32,873 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 13:04:32,873 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 13:04:32,873 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 13:04:32,873 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 13:04:46,778 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:26012
+2023-10-22 13:04:46,788 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 13:04:46,798 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 13:04:47,068 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 13:04:47,068 INFO  main                             - Install Module: sofaTracer
+2023-10-22 13:04:47,078 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:42:00,634 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 13:42:00,643 INFO  SOFA-RPC-ShutdownHook            - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:42:00,648 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 13:42:00,648 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 13:42:00,648 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 13:42:00,649 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 13:42:15,931 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:8536
+2023-10-22 13:42:15,944 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 13:42:15,960 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 13:42:16,244 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 13:42:16,244 INFO  main                             - Install Module: sofaTracer
+2023-10-22 13:42:16,257 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 13:42:16,826 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 14:34:30,157 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 14:34:30,189 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:34:30,216 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 14:34:30,216 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 14:34:30,216 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 14:34:30,217 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 14:34:47,992 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:24124
+2023-10-22 14:34:48,001 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 14:34:48,010 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 14:34:48,280 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 14:34:48,281 INFO  main                             - Install Module: sofaTracer
+2023-10-22 14:34:48,289 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:34:48,812 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 14:40:35,940 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 14:40:35,942 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:40:35,948 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 14:40:35,949 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 14:40:35,949 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 14:40:35,949 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 14:40:47,192 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:16028
+2023-10-22 14:40:47,200 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 14:40:47,211 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 14:40:47,479 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 14:40:47,479 INFO  main                             - Install Module: sofaTracer
+2023-10-22 14:40:47,488 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:40:47,984 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 14:42:15,676 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 14:42:15,679 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:42:15,691 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 14:42:15,691 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 14:42:15,691 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 14:42:15,691 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 14:42:26,874 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:38140
+2023-10-22 14:42:26,883 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 14:42:26,893 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 14:42:27,169 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 14:42:27,170 INFO  main                             - Install Module: sofaTracer
+2023-10-22 14:42:27,178 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:42:27,667 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 14:54:19,165 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 14:54:19,172 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:54:19,180 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 14:54:19,180 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 14:54:19,180 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 14:54:19,180 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 14:54:33,741 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:7756
+2023-10-22 14:54:33,752 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 14:54:33,767 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 14:54:34,050 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 14:54:34,050 INFO  main                             - Install Module: sofaTracer
+2023-10-22 14:54:34,059 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:54:34,658 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 14:57:38,014 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 14:57:38,017 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:57:38,028 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 14:57:38,029 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 14:57:38,029 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 14:57:38,029 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 14:58:23,504 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:13140
+2023-10-22 14:58:23,514 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 14:58:23,530 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 14:58:23,822 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 14:58:23,822 INFO  main                             - Install Module: sofaTracer
+2023-10-22 14:58:23,833 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 14:58:24,484 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 15:07:52,770 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 15:07:52,776 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:07:52,786 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 15:07:52,786 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 15:07:52,786 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 15:07:52,787 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 15:08:05,899 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:12444
+2023-10-22 15:08:05,908 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 15:08:05,919 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 15:08:06,193 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 15:08:06,193 INFO  main                             - Install Module: sofaTracer
+2023-10-22 15:08:06,201 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:08:06,727 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 15:40:34,801 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 15:40:34,805 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:40:34,815 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 15:40:34,815 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 15:40:34,815 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 15:40:34,816 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 15:40:47,063 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:29504
+2023-10-22 15:40:47,072 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 15:40:47,081 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 15:40:47,355 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 15:40:47,355 INFO  main                             - Install Module: sofaTracer
+2023-10-22 15:40:47,364 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:40:47,855 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 15:55:01,071 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 15:55:01,074 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:55:01,081 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 15:55:01,081 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 15:55:01,081 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 15:55:01,082 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 15:55:13,578 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:22148
+2023-10-22 15:55:13,587 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 15:55:13,597 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 15:55:13,876 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 15:55:13,876 INFO  main                             - Install Module: sofaTracer
+2023-10-22 15:55:13,885 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:55:14,382 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 15:59:28,729 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 15:59:28,730 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:59:28,737 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 15:59:28,737 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 15:59:28,737 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 15:59:28,737 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 15:59:39,680 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:13060
+2023-10-22 15:59:39,689 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 15:59:39,701 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 15:59:39,976 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 15:59:39,976 INFO  main                             - Install Module: sofaTracer
+2023-10-22 15:59:39,985 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 15:59:40,551 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 18:28:09,362 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 18:28:09,365 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 18:28:09,379 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 18:28:09,379 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 18:28:09,379 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 18:28:09,380 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 20:44:12,872 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:25920
+2023-10-22 20:44:12,882 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 20:44:12,895 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 20:44:13,185 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 20:44:13,185 INFO  main                             - Install Module: sofaTracer
+2023-10-22 20:44:13,194 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 20:44:13,899 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
+2023-10-22 21:02:05,709 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 21:02:05,723 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 21:02:05,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 21:02:05,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 21:02:05,744 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 21:02:05,745 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 21:02:57,635 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:32116
+2023-10-22 21:02:57,646 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 21:02:57,659 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 21:02:57,945 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 21:02:57,945 INFO  main                             - Install Module: sofaTracer
+2023-10-22 21:02:57,965 INFO  main                             - Refer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-22 21:02:58,136 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-22 21:02:58,137 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductTestService: with bean id rpc-cfg-0
+2023-10-22 21:02:58,141 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-22 21:02:58,141 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-22 21:02:58,141 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-22 21:02:58,141 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-22 21:12:28,657 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:40700
+2023-10-22 21:12:28,666 INFO  main                             - Install Module: fault-tolerance
+2023-10-22 21:12:28,683 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-22 21:12:28,973 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-22 21:12:28,973 INFO  main                             - Install Module: sofaTracer
+2023-10-22 21:12:28,982 INFO  main                             - Export provider config : com.service.ProductTestService::bolt with bean id rpc-cfg-0
+2023-10-22 21:12:29,502 INFO  main                             - service published.  interfaceId[com.service.ProductTestService]; protocol[bolt]
