@@ -684,3 +684,14 @@
 2023-10-22 21:38:59,872 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
 2023-10-22 21:39:29,886 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
 2023-10-22 21:39:59,899 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:40:29,908 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:40:59,913 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:41:29,923 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:41:59,933 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:42:29,939 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:42:59,955 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:43:29,959 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:43:59,971 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:44:29,981 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:44:59,984 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
+2023-10-22 21:45:29,988 INFO  RPC-RES-MONITOR                  RPC-BOLT-THREADPOOL - blockQueue:0, active:0, idle:0, poolSize:0
