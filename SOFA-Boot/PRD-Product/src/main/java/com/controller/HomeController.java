@@ -10,6 +10,6 @@ public class HomeController {
 
     @RequestMapping("/index")
     public Result homeInfo(){
-
+return null;
     }
 }

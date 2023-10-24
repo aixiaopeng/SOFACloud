@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.entity.Order">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="productId" column="product_id" jdbcType="BIGINT"/>
+            <result property="amount" column="amount" jdbcType="DECIMAL"/>
+            <result property="addr" column="addr" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="VARCHAR"/>
+            <result property="note" column="note" jdbcType="VARCHAR"/>
+            <result property="refundTime" column="refund_time" jdbcType="TIMESTAMP"/>
+            <result property="refundAmount" column="refund_amount" jdbcType="DECIMAL"/>
+            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="deletedAt" column="deleted_at" jdbcType="TIMESTAMP"/>
+            <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,user_id,product_id,
+        amount,addr,status,
+        note,refund_time,refund_amount,
+        created_at,deleted_at,updated_at
+    </sql>
+</mapper>

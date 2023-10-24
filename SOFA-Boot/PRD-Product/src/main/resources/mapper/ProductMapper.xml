@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ProductMapper">
+
+    <resultMap id="BaseResultMap" type="com.entity.Product">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="priority" column="priority" jdbcType="INTEGER"/>
+            <result property="category" column="category" jdbcType="BIGINT"/>
+            <result property="status" column="status" jdbcType="TINYINT"/>
+            <result property="imgurl" column="imgUrl" jdbcType="VARCHAR"/>
+            <result property="description" column="description" jdbcType="VARCHAR"/>
+            <result property="price" column="price" jdbcType="DECIMAL"/>
+            <result property="num" column="num" jdbcType="INTEGER"/>
+            <result property="sold" column="sold" jdbcType="INTEGER"/>
+            <result property="discountPrice" column="discount_price" jdbcType="DECIMAL"/>
+            <result property="createdAt" column="created_at" jdbcType="TIMESTAMP"/>
+            <result property="deletedAt" column="deleted_at" jdbcType="TIMESTAMP"/>
+            <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP"/>
+            <result property="discountBegin" column="discount_begin" jdbcType="TIMESTAMP"/>
+            <result property="discountEnd" column="discount_end" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,priority,
+        category,status,imgUrl,
+        description,price,num,
+        sold,discount_price,created_at,
+        deleted_at,updated_at,discount_begin,
+        discount_end
+    </sql>
+</mapper>

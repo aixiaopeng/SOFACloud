@@ -1,10 +1,19 @@
 package com.service.impl;
 
+import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.entity.ShoppingCart;
+import com.entity.vo.LoginUser;
 import com.service.ShoppingCartService;
 import com.mapper.ShoppingCartMapper;
+import com.utils.NowTime;
+import lombok.val;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
+
+import java.util.Objects;
 
 /**
 * @author 15012
@@ -15,6 +24,35 @@ import org.springframework.stereotype.Service;
 public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, ShoppingCart>
     implements ShoppingCartService{
 
+    @Autowired
+    private ShoppingCartMapper shoppingCartMapper;
+
+    @Override
+    public Boolean addShoppingCart(Long productId) {
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        LoginUser userDetails= (LoginUser) principal;
+        Long userId=userDetails.getUserId();
+
+        //购物车是否存在该数据
+        ShoppingCart shoppingCart = new LambdaQueryChainWrapper<>(shoppingCartMapper).eq(ShoppingCart::getUserId, userId).eq(ShoppingCart::getProductId, productId).one();
+        if(!Objects.isNull(shoppingCart)){
+            return false;
+        }
+
+        shoppingCart=new ShoppingCart();
+        shoppingCart.setUserId(userId);
+        shoppingCart.setProductId(productId);
+        shoppingCartMapper.insert(shoppingCart);
+        return true;
+    }
+
+    @Override
+    public Page<ShoppingCart> listAddShoppingCart(Long userId,int page, int pageSize) {
+        Page<ShoppingCart> Page = new Page<>(page, pageSize);
+        Page<ShoppingCart> shoppingCarts = new LambdaQueryChainWrapper<>(shoppingCartMapper).isNull(ShoppingCart::getDeletedAt).eq(ShoppingCart::getUserId,userId).page(Page);
+
+        return shoppingCarts;
+    }
 }
 
 

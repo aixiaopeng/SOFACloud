@@ -6,5 +6,16 @@ spring:
     password: root
     driver-class-name: com.mysql.jdbc.Driver
 
+mybatis-plus:
+  configuration:
+    use-generated-keys: true
+  mapper-locations: classpath:mapper/*Mapper.xml
+  global-config:
+    db-config:
+      id-type: auto
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+  plugins:
+    - com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor
 
 

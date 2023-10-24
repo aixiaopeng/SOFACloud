@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/order")
 public class testController {
 
-    @Value("${config}")
-    private String configInfo;
+//    @Value("${config}")
+//    private String configInfo;
 
     @GetMapping("/test")
     public String test(){
@@ -18,9 +18,9 @@ public class testController {
     }
 
 
-    @GetMapping("/nacos")
-    public String nacosTest(){
-        return "nacos:"+configInfo;
-    }
+//    @GetMapping("/nacos")
+//    public String nacosTest(){
+//        return "nacos:"+configInfo;
+//    }
 
 }

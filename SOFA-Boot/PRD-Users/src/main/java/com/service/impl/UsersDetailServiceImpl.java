@@ -25,7 +25,7 @@ public class UsersDetailServiceImpl implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
-        Users user = usersDal.lambdaQuery().eq(Users::getUsername, username).one();
+        Users user = usersDal.lambdaQuery().eq(Users::getUserName, username).one();
 
         if(Objects.isNull(user)){
             throw new UsernameNotFoundException("用户名或密码错误");

@@ -1,162 +1,493 @@
-2023-10-22 13:00:48,419 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:01:04,491 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:01:46,414 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:02:19,874 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:02:24,734 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 13:02:24,735 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:02:25,058 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:02:25,058 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:02:25,085 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:02:25,085 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 13:04:33,319 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:04:33,321 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:04:33,321 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:04:33,321 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:04:41,533 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:04:46,757 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 13:04:46,757 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:04:47,073 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:04:47,073 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:04:47,101 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:04:47,101 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 13:42:01,122 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:42:01,127 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:42:01,127 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:42:01,127 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:42:10,562 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 13:42:15,902 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 13:42:15,903 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:42:16,251 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:42:16,251 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 13:42:16,287 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 13:42:16,287 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 14:34:30,748 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:34:30,756 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:34:30,756 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:34:30,756 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:34:40,467 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:34:47,970 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 14:34:47,970 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:34:48,286 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:34:48,286 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:34:48,311 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:34:48,311 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 14:40:36,390 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:40:36,392 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:40:36,392 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:40:36,392 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:40:42,282 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:40:47,168 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 14:40:47,168 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:40:47,485 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:40:47,485 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:40:47,509 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:40:47,509 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 14:42:16,131 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:42:16,133 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:42:16,133 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:42:16,133 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:42:22,017 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:42:26,853 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 14:42:26,853 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:42:27,174 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:42:27,175 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:42:27,200 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:42:27,200 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 14:54:19,606 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:54:19,608 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:54:19,608 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:54:19,608 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:54:27,911 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:54:33,708 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 14:54:33,708 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:54:34,054 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:54:34,055 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:54:34,086 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:54:34,086 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 14:57:38,432 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:57:38,434 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:57:38,434 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:57:38,434 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:57:41,404 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:58:18,533 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 14:58:23,478 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 14:58:23,479 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:58:23,828 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:58:23,828 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 14:58:23,864 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 14:58:23,864 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 15:07:53,370 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:07:53,373 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:07:53,373 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:07:53,373 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:08:00,616 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 15:08:05,878 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 15:08:05,878 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:08:06,197 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:08:06,197 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:08:06,221 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:08:06,222 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 15:40:35,260 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:40:35,264 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:40:35,264 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:40:35,264 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:40:41,914 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 15:40:47,044 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 15:40:47,044 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:40:47,360 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:40:47,360 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:40:47,388 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:40:47,388 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 15:55:01,539 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:55:01,541 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:55:01,541 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:55:01,541 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:55:08,344 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 15:55:13,557 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 15:55:13,557 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:55:13,880 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:55:13,882 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:55:13,909 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:55:13,909 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 15:59:29,180 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:59:29,182 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:59:29,182 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:59:29,182 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:59:34,481 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 15:59:39,655 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 15:59:39,657 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:59:39,981 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:59:39,981 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 15:59:40,013 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 15:59:40,013 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 18:28:10,045 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 18:28:10,049 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 18:28:10,049 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 18:28:10,049 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 20:41:54,830 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 20:44:07,377 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 20:44:12,848 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 20:44:12,849 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 20:44:13,190 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 20:44:13,190 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 20:44:13,224 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 20:44:13,224 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 21:02:06,213 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:02:06,217 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:02:06,217 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:02:06,217 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:02:52,443 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 21:02:57,577 INFO  main                             - Registering component: reference:com.service.ProductTestService:#17425883
-2023-10-22 21:02:57,578 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:02:58,087 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:02:58,090 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:02:58,091 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:12:22,525 INFO  main                             - SOFABoot Runtime Starting!
-2023-10-22 21:12:28,633 INFO  main                             - Registering component: service:com.service.ProductTestService
-2023-10-22 21:12:28,633 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:12:28,978 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:12:28,978 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
-2023-10-22 21:12:29,003 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
-2023-10-22 21:12:29,003 INFO  main                             - Register Service - com.service.ProductTestService
-2023-10-22 21:36:27,632 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:17:21,392 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:17:27,541 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:17:27,541 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:17:27,876 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:17:27,876 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:17:27,905 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:17:27,905 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:33:09,698 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:33:09,700 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:33:09,700 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:33:09,700 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:33:16,823 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:33:21,546 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:33:21,547 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:33:21,859 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:33:21,860 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:33:21,883 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:33:21,883 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:36:53,486 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:36:53,488 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:36:53,488 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:36:53,488 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:37:00,749 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:37:05,457 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:37:05,457 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:37:05,768 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:37:05,769 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:37:05,794 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:37:05,794 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:39:29,566 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:39:33,109 INFO  main                             - Registering component: reference:com.service.ProductTestService:#-455308329
+2023-10-23 11:39:33,110 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:39:34,104 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:39:34,109 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:39:34,110 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:39:46,329 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:39:46,331 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:39:46,331 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:39:46,332 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:40:32,673 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:40:37,778 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:40:37,778 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:40:38,110 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:40:38,110 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:40:38,141 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:40:38,141 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:42:37,536 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:42:37,537 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:42:37,538 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:42:37,538 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:42:43,479 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:42:48,588 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:42:48,588 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:42:48,908 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:42:48,908 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:42:48,937 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:42:48,937 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:44:07,210 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:44:07,212 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:44:07,212 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:44:07,212 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:44:53,292 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:44:59,862 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:44:59,863 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:45:00,314 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:45:00,316 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:45:00,375 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:45:00,375 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:45:41,907 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:45:41,909 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:45:41,909 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:45:41,909 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:46:13,947 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:46:20,779 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:46:20,780 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:46:21,214 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:46:21,214 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:46:21,269 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:46:21,269 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:48:40,158 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:48:40,160 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:48:40,160 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:48:40,160 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:48:46,077 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:48:52,864 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:48:52,864 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:48:53,298 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:48:53,298 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:48:53,357 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:48:53,357 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:51:50,733 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:51:50,735 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:51:50,735 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:51:50,735 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:51:56,716 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:52:03,285 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:52:03,285 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:52:03,709 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:52:03,709 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:52:03,765 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:52:03,765 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 11:55:54,389 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:55:54,391 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:55:54,391 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:55:54,391 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:56:00,198 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 11:56:06,432 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 11:56:06,432 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:56:06,856 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:56:06,857 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 11:56:06,911 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 11:56:06,911 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:00:24,392 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:00:24,395 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:00:24,395 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:00:24,395 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:00:30,003 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:00:36,220 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:00:36,220 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:00:36,640 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:00:36,640 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:00:36,695 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:00:36,695 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:01:11,284 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:01:11,286 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:01:11,286 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:01:11,287 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:01:17,204 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:01:23,393 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:01:23,393 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:01:23,810 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:01:23,810 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:01:23,866 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:01:23,866 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:02:18,685 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:02:18,686 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:02:18,687 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:02:18,687 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:02:24,561 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:02:30,806 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:02:30,807 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:02:31,236 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:02:31,237 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:02:31,293 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:02:31,293 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:05:47,664 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:05:47,667 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:05:47,667 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:05:47,667 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:05:54,021 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:06:01,187 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:06:01,187 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:06:01,626 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:06:01,627 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:06:01,680 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:06:01,680 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:55:11,803 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:55:11,805 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:55:11,805 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:55:11,805 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:55:19,814 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:55:26,872 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:55:26,872 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:55:27,302 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:55:27,302 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:55:27,356 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:55:27,356 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:59:04,837 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:04,839 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:04,839 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:04,839 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:11,109 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 12:59:17,554 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 12:59:17,555 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:17,993 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:17,994 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:18,049 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:18,049 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 12:59:48,030 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:48,031 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:48,032 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 12:59:48,032 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 12:59:54,168 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 13:00:01,119 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 13:00:01,120 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:00:01,597 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:00:01,597 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:00:01,655 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:00:01,655 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 13:28:09,026 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:28:09,028 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:28:09,028 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:28:09,028 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:28:17,533 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 13:29:22,573 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 13:31:53,785 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 13:32:00,432 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 13:32:00,432 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:32:00,879 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:32:00,879 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 13:32:00,935 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 13:32:00,935 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:02:16,516 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:02:16,519 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:02:16,519 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:02:16,519 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:02:23,662 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:02:30,173 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:02:30,173 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:02:30,590 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:02:30,590 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:02:30,644 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:02:30,645 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:05:10,140 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:05:10,141 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:05:10,142 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:05:10,142 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:05:16,013 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:05:22,301 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:05:22,301 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:05:22,736 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:05:22,736 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:05:22,790 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:05:22,790 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:24:04,622 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:24:04,624 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:24:04,624 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:24:04,624 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:24:23,385 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:24:28,938 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:24:28,938 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:24:29,268 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:24:29,268 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:24:29,295 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:24:29,295 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:26:16,140 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:26:16,141 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:26:16,141 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:26:16,141 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:26:22,066 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:26:27,222 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:26:27,222 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:26:27,556 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:26:27,556 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:26:27,584 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:26:27,584 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:49:11,691 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:49:11,693 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:49:11,693 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:49:11,694 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:49:18,185 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:49:23,271 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:49:23,271 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:49:23,603 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:49:23,604 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:49:23,631 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:49:23,631 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:50:28,091 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:50:28,092 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:50:28,092 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:50:28,092 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:50:34,030 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:50:39,132 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:50:39,132 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:50:39,464 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:50:39,464 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:50:39,492 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:50:39,492 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:55:56,953 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:55:56,955 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:55:56,955 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:55:56,955 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:56:03,324 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:56:08,723 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:56:08,724 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:56:09,089 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:56:09,089 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:56:09,128 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:56:09,128 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 14:58:23,258 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:58:23,261 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:58:23,261 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:58:23,261 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:58:29,225 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 14:58:34,337 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 14:58:34,337 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:58:34,661 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:58:34,661 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 14:58:34,689 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 14:58:34,689 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 17:05:34,867 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 17:05:34,870 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 17:05:34,870 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 17:05:34,870 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:34:03,753 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 19:34:10,189 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 19:34:10,189 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:34:10,518 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:34:10,518 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:34:10,550 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:34:10,550 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 19:48:10,820 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:48:10,822 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:48:10,822 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:48:10,822 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:48:17,774 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 19:48:22,928 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 19:48:22,928 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:48:23,271 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:48:23,271 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 19:48:23,297 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 19:48:23,297 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 20:17:44,176 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:17:44,178 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:17:44,179 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:17:44,179 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:17:52,530 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 20:17:58,538 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 20:17:58,538 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:17:58,891 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:17:58,891 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:17:58,926 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:17:58,926 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 20:24:38,718 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:24:38,720 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:24:38,720 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:24:38,720 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:24:45,785 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 20:24:51,382 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 20:24:51,382 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:24:51,746 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:24:51,746 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:24:51,794 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:24:51,794 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 20:25:44,844 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:25:44,846 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:25:44,846 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:25:44,846 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:25:50,820 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 20:25:56,076 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 20:25:56,076 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:25:56,413 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:25:56,413 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:25:56,441 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:25:56,441 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 20:40:49,868 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:40:49,871 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:40:49,871 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:40:49,871 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:40:57,192 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 20:41:03,195 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 20:41:03,195 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:41:03,565 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:41:03,565 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:41:03,612 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:41:03,613 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 20:46:30,481 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:46:30,482 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:46:30,483 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:46:30,483 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:46:36,747 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 20:46:41,982 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 20:46:41,982 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:46:42,317 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:46:42,317 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 20:46:42,345 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 20:46:42,345 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 21:13:55,101 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 21:13:55,104 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 21:13:55,104 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 21:13:55,104 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 21:14:04,136 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 21:14:09,971 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 21:14:09,972 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 21:14:10,363 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 21:14:10,363 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 21:14:10,396 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 21:14:10,396 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 22:28:45,788 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:28:45,806 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:28:45,807 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:28:45,807 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:28:55,848 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 22:29:22,412 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 22:29:27,819 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 22:29:27,819 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:29:28,153 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:29:28,153 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:29:28,183 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:29:28,183 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 22:36:17,158 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:36:17,160 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:36:17,160 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:36:17,160 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:36:28,297 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 22:36:34,602 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 22:36:34,602 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:36:34,957 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:36:34,958 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:36:34,988 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:36:34,988 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 22:42:10,704 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:42:10,706 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:42:10,706 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:42:10,706 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:42:18,869 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-23 22:42:24,772 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-23 22:42:24,772 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:42:25,120 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:42:25,120 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-23 22:42:25,150 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-23 22:42:25,150 INFO  main                             - Register Service - com.service.ProductTestService
+2023-10-23 23:58:20,871 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 00:07:37,972 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 00:07:37,989 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 00:07:37,990 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 00:07:37,990 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 11:42:10,570 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 11:42:14,833 INFO  main                             - Registering component: reference:com.service.ProductTestService:#2093680026
+2023-10-24 11:42:14,834 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 11:42:15,251 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 11:42:15,258 ERROR main                             - SOFA-BOOT-01-03004: Failed to resolve and active component [reference:com.service.ProductTestService:#2093680026]
+com.alipay.sofa.runtime.api.ServiceRuntimeException: RPC-010010009: 订阅元数据失败 
+	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:212)
+	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:47)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.createProxy(ReferenceComponent.java:245)
+	at com.alipay.sofa.runtime.service.component.ReferenceComponent.activate(ReferenceComponent.java:176)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.doRegister(ComponentManagerImpl.java:187)
+	at com.alipay.sofa.runtime.component.impl.ComponentManagerImpl.registerAndGet(ComponentManagerImpl.java:148)
+	at com.alipay.sofa.runtime.service.helper.ReferenceRegisterHelper.registerReference(ReferenceRegisterHelper.java:77)
+	at com.alipay.sofa.runtime.spring.ReferenceAnnotationBeanPostProcessor.createReferenceProxy(ReferenceAnnotationBeanPostProcessor.java:196)
+	at com.alipay.sofa.runtime.spring.ReferenceAnnotationBeanPostProcessor.access$100(ReferenceAnnotationBeanPostProcessor.java:59)
+	at com.alipay.sofa.runtime.spring.ReferenceAnnotationBeanPostProcessor$1.doWith(ReferenceAnnotationBeanPostProcessor.java:115)
+	at org.springframework.util.ReflectionUtils.doWithFields(ReflectionUtils.java:706)
+	at com.alipay.sofa.runtime.spring.ReferenceAnnotationBeanPostProcessor.processSofaReference(ReferenceAnnotationBeanPostProcessor.java:97)
+	at com.alipay.sofa.runtime.spring.ReferenceAnnotationBeanPostProcessor.postProcessBeforeInitialization(ReferenceAnnotationBeanPostProcessor.java:90)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:440)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1796)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:921)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.OrderApplication.main(OrderApplication.java:12)
+Caused by: com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: RPC-020010011: 初始化服务端 transport 异常! 
+	at com.alipay.sofa.rpc.client.AbstractCluster.init(AbstractCluster.java:162)
+	at com.alipay.sofa.rpc.bootstrap.DefaultConsumerBootstrap.refer(DefaultConsumerBootstrap.java:154)
+	at com.alipay.sofa.rpc.config.ConsumerConfig.refer(ConsumerConfig.java:955)
+	at com.alipay.sofa.rpc.boot.runtime.adapter.RpcBindingAdapter.inBinding(RpcBindingAdapter.java:208)
+	... 30 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/alibaba/nacos/api/exception/NacosException
+	at com.alipay.sofa.rpc.registry.nacos.NacosRegistry.init(NacosRegistry.java:144)
+	at com.alipay.sofa.rpc.bootstrap.DefaultConsumerBootstrap.subscribeFromRegistries(DefaultConsumerBootstrap.java:338)
+	at com.alipay.sofa.rpc.bootstrap.DefaultConsumerBootstrap.subscribe(DefaultConsumerBootstrap.java:271)
+	at com.alipay.sofa.rpc.client.AbstractCluster.init(AbstractCluster.java:154)
+	... 33 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.alibaba.nacos.api.exception.NacosException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 37 common frames omitted
+2023-10-24 11:42:15,262 INFO  main                             -  >>Un-in Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 11:42:15,263 INFO  main                             -  >>Un-in Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 12:15:51,385 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:30:47,656 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:32:55,614 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:35:45,546 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:39:34,030 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:48:33,627 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 12:54:16,138 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 13:10:48,054 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 13:22:31,940 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 13:36:57,317 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 13:38:41,765 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 13:39:51,069 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 15:37:25,803 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-24 15:37:32,493 INFO  main                             - Registering component: service:com.service.ProductTestService
+2023-10-24 15:37:32,495 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 15:37:32,844 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 15:37:32,844 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductTestService.
+2023-10-24 15:37:32,874 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductTestService.
+2023-10-24 15:37:32,874 INFO  main                             - Register Service - com.service.ProductTestService

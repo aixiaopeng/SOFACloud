@@ -1,5 +1,8 @@
 package com.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -20,9 +23,9 @@ public class Product implements Serializable {
     private String name;
 
     /**
-     * 父产品ID
+     * 优先级
      */
-    private Long parentId;
+    private Integer priority;
 
     /**
      * 产品类别
@@ -60,9 +63,10 @@ public class Product implements Serializable {
     private Integer sold;
 
     /**
-     * 关联的折扣ID
+     * 折扣后
+
      */
-    private Long discountId;
+    private BigDecimal discountPrice;
 
     /**
      * 创建时间
@@ -78,6 +82,18 @@ public class Product implements Serializable {
      * 更新时间
      */
     private Date updatedAt;
+
+    /**
+     * 
+     */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
+    private Date discountBegin;
+
+    /**
+     * 
+     */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
+    private Date discountEnd;
 
     private static final long serialVersionUID = 1L;
 
@@ -110,17 +126,17 @@ public class Product implements Serializable {
     }
 
     /**
-     * 父产品ID
+     * 优先级
      */
-    public Long getParentId() {
-        return parentId;
+    public Integer getPriority() {
+        return priority;
     }
 
     /**
-     * 父产品ID
+     * 优先级
      */
-    public void setParentId(Long parentId) {
-        this.parentId = parentId;
+    public void setPriority(Integer priority) {
+        this.priority = priority;
     }
 
     /**
@@ -222,17 +238,19 @@ public class Product implements Serializable {
     }
 
     /**
-     * 关联的折扣ID
+     * 折扣后
+
      */
-    public Long getDiscountId() {
-        return discountId;
+    public BigDecimal getDiscountPrice() {
+        return discountPrice;
     }
 
     /**
-     * 关联的折扣ID
+     * 折扣后
+
      */
-    public void setDiscountId(Long discountId) {
-        this.discountId = discountId;
+    public void setDiscountPrice(BigDecimal discountPrice) {
+        this.discountPrice = discountPrice;
     }
 
     /**
@@ -277,6 +295,34 @@ public class Product implements Serializable {
         this.updatedAt = updatedAt;
     }
 
+    /**
+     * 
+     */
+    public Date getDiscountBegin() {
+        return discountBegin;
+    }
+
+    /**
+     * 
+     */
+    public void setDiscountBegin(Date discountBegin) {
+        this.discountBegin = discountBegin;
+    }
+
+    /**
+     * 
+     */
+    public Date getDiscountEnd() {
+        return discountEnd;
+    }
+
+    /**
+     * 
+     */
+    public void setDiscountEnd(Date discountEnd) {
+        this.discountEnd = discountEnd;
+    }
+
     @Override
     public boolean equals(Object that) {
         if (this == that) {
@@ -291,7 +337,7 @@ public class Product implements Serializable {
         Product other = (Product) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
             && (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
-            && (this.getParentId() == null ? other.getParentId() == null : this.getParentId().equals(other.getParentId()))
+            && (this.getPriority() == null ? other.getPriority() == null : this.getPriority().equals(other.getPriority()))
             && (this.getCategory() == null ? other.getCategory() == null : this.getCategory().equals(other.getCategory()))
             && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
             && (this.getImgurl() == null ? other.getImgurl() == null : this.getImgurl().equals(other.getImgurl()))
@@ -299,10 +345,12 @@ public class Product implements Serializable {
             && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
             && (this.getNum() == null ? other.getNum() == null : this.getNum().equals(other.getNum()))
             && (this.getSold() == null ? other.getSold() == null : this.getSold().equals(other.getSold()))
-            && (this.getDiscountId() == null ? other.getDiscountId() == null : this.getDiscountId().equals(other.getDiscountId()))
+            && (this.getDiscountPrice() == null ? other.getDiscountPrice() == null : this.getDiscountPrice().equals(other.getDiscountPrice()))
             && (this.getCreatedAt() == null ? other.getCreatedAt() == null : this.getCreatedAt().equals(other.getCreatedAt()))
             && (this.getDeletedAt() == null ? other.getDeletedAt() == null : this.getDeletedAt().equals(other.getDeletedAt()))
-            && (this.getUpdatedAt() == null ? other.getUpdatedAt() == null : this.getUpdatedAt().equals(other.getUpdatedAt()));
+            && (this.getUpdatedAt() == null ? other.getUpdatedAt() == null : this.getUpdatedAt().equals(other.getUpdatedAt()))
+            && (this.getDiscountBegin() == null ? other.getDiscountBegin() == null : this.getDiscountBegin().equals(other.getDiscountBegin()))
+            && (this.getDiscountEnd() == null ? other.getDiscountEnd() == null : this.getDiscountEnd().equals(other.getDiscountEnd()));
     }
 
     @Override
@@ -311,7 +359,7 @@ public class Product implements Serializable {
         int result = 1;
         result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
         result = prime * result + ((getName() == null) ? 0 : getName().hashCode());
-        result = prime * result + ((getParentId() == null) ? 0 : getParentId().hashCode());
+        result = prime * result + ((getPriority() == null) ? 0 : getPriority().hashCode());
         result = prime * result + ((getCategory() == null) ? 0 : getCategory().hashCode());
         result = prime * result + ((getStatus() == null) ? 0 : getStatus().hashCode());
         result = prime * result + ((getImgurl() == null) ? 0 : getImgurl().hashCode());
@@ -319,10 +367,12 @@ public class Product implements Serializable {
         result = prime * result + ((getPrice() == null) ? 0 : getPrice().hashCode());
         result = prime * result + ((getNum() == null) ? 0 : getNum().hashCode());
         result = prime * result + ((getSold() == null) ? 0 : getSold().hashCode());
-        result = prime * result + ((getDiscountId() == null) ? 0 : getDiscountId().hashCode());
+        result = prime * result + ((getDiscountPrice() == null) ? 0 : getDiscountPrice().hashCode());
         result = prime * result + ((getCreatedAt() == null) ? 0 : getCreatedAt().hashCode());
         result = prime * result + ((getDeletedAt() == null) ? 0 : getDeletedAt().hashCode());
         result = prime * result + ((getUpdatedAt() == null) ? 0 : getUpdatedAt().hashCode());
+        result = prime * result + ((getDiscountBegin() == null) ? 0 : getDiscountBegin().hashCode());
+        result = prime * result + ((getDiscountEnd() == null) ? 0 : getDiscountEnd().hashCode());
         return result;
     }
 
@@ -334,7 +384,7 @@ public class Product implements Serializable {
         sb.append("Hash = ").append(hashCode());
         sb.append(", id=").append(id);
         sb.append(", name=").append(name);
-        sb.append(", parentId=").append(parentId);
+        sb.append(", priority=").append(priority);
         sb.append(", category=").append(category);
         sb.append(", status=").append(status);
         sb.append(", imgurl=").append(imgurl);
@@ -342,10 +392,12 @@ public class Product implements Serializable {
         sb.append(", price=").append(price);
         sb.append(", num=").append(num);
         sb.append(", sold=").append(sold);
-        sb.append(", discountId=").append(discountId);
+        sb.append(", discountPrice=").append(discountPrice);
         sb.append(", createdAt=").append(createdAt);
         sb.append(", deletedAt=").append(deletedAt);
         sb.append(", updatedAt=").append(updatedAt);
+        sb.append(", discountBegin=").append(discountBegin);
+        sb.append(", discountEnd=").append(discountEnd);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

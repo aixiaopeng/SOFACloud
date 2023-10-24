@@ -56,3 +56,14 @@
 2023-10-21 16:00:00,078 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel inactive: 192.168.253.1:64029
 2023-10-21 16:00:00,078 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-2] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:64029], event: CLOSE
 2023-10-21 16:00:00,078 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel unregistered: 192.168.253.1:64029
+2023-10-23 11:39:33,994 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2023-10-23 11:39:34,001 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-1] Try connect to 172.20.10.3:12200
+2023-10-23 11:39:34,006 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel active: 172.20.10.3:12200
+2023-10-23 11:39:34,008 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-1] trigger user event, local[172.20.10.3:64831], remote[172.20.10.3:12200], event: CONNECT
+2023-10-23 11:39:34,013 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[172.20.10.3:12200], remote[172.20.10.3:64831], event: CONNECT
+2023-10-23 11:39:34,020 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 172.20.10.3:64831
+2023-10-23 11:39:34,021 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 172.20.10.3:64831
+2023-10-23 11:39:34,159 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection closed: 172.20.10.3:12200
+2023-10-23 11:39:34,166 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 172.20.10.3:64831
+2023-10-23 11:39:34,167 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[172.20.10.3:12200], remote[172.20.10.3:64831], event: CLOSE
+2023-10-23 11:39:34,167 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 172.20.10.3:64831

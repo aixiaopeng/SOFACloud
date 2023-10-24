@@ -1,223 +1,203 @@
 package com.entity;
 
 import java.io.Serializable;
-import java.math.BigDecimal;
 import java.util.Date;
 
 /**
  * 
- * @TableName users
+ * @TableName user
  */
 public class Users implements Serializable {
     /**
-     * 
+     * 用户ID
      */
-    private Integer id;
+    private Long id;
 
     /**
-     * 
+     * 用户名
      */
-    private String username;
+    private String userName;
 
     /**
-     * 
+     * 密码
      */
     private String password;
 
     /**
-     * 
+     * 地址
      */
-    private String realName;
+    private String addr;
 
     /**
-     * 
+     * 电话号码
      */
     private String phone;
 
     /**
-     * 
+     * 角色
      */
     private String role;
 
     /**
-     * 
+     * 状态 (0 - 禁用, 1 - 启用)
      */
-    private String bankCard;
+    private Integer status;
 
     /**
-     * 
+     * 创建时间
      */
     private Date createdAt;
 
     /**
-     * 
+     * 删除时间
      */
     private Date deletedAt;
 
     /**
-     * 
+     * 更新时间
      */
-    private BigDecimal points;
-
-    /**
-     * 
-     */
-    private Integer status;
+    private Date updatedAt;
 
     private static final long serialVersionUID = 1L;
 
     /**
-     * 
+     * 用户ID
      */
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
     /**
-     * 
+     * 用户ID
      */
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
     /**
-     * 
+     * 用户名
      */
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
     /**
-     * 
+     * 用户名
      */
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     /**
-     * 
+     * 密码
      */
     public String getPassword() {
         return password;
     }
 
     /**
-     * 
+     * 密码
      */
     public void setPassword(String password) {
         this.password = password;
     }
 
     /**
-     * 
+     * 地址
      */
-    public String getRealName() {
-        return realName;
+    public String getAddr() {
+        return addr;
     }
 
     /**
-     * 
+     * 地址
      */
-    public void setRealName(String realName) {
-        this.realName = realName;
+    public void setAddr(String addr) {
+        this.addr = addr;
     }
 
     /**
-     * 
+     * 电话号码
      */
     public String getPhone() {
         return phone;
     }
 
     /**
-     * 
+     * 电话号码
      */
     public void setPhone(String phone) {
         this.phone = phone;
     }
 
     /**
-     * 
+     * 角色
      */
     public String getRole() {
         return role;
     }
 
     /**
-     * 
+     * 角色
      */
     public void setRole(String role) {
         this.role = role;
     }
 
     /**
-     * 
-     */
-    public String getBankCard() {
-        return bankCard;
-    }
-
-    /**
-     * 
-     */
-    public void setBankCard(String bankCard) {
-        this.bankCard = bankCard;
-    }
-
-    /**
-     * 
-     */
-    public Date getCreatedAt() {
-        return createdAt;
-    }
-
-    /**
-     * 
-     */
-    public void setCreatedAt(Date createdAt) {
-        this.createdAt = createdAt;
-    }
-
-    /**
-     * 
-     */
-    public Date getDeletedAt() {
-        return deletedAt;
-    }
-
-    /**
-     * 
-     */
-    public void setDeletedAt(Date deletedAt) {
-        this.deletedAt = deletedAt;
-    }
-
-    /**
-     * 
-     */
-    public BigDecimal getPoints() {
-        return points;
-    }
-
-    /**
-     * 
-     */
-    public void setPoints(BigDecimal points) {
-        this.points = points;
-    }
-
-    /**
-     * 
+     * 状态 (0 - 禁用, 1 - 启用)
      */
     public Integer getStatus() {
         return status;
     }
 
     /**
-     * 
+     * 状态 (0 - 禁用, 1 - 启用)
      */
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+    /**
+     * 创建时间
+     */
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    /**
+     * 创建时间
+     */
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    /**
+     * 删除时间
+     */
+    public Date getDeletedAt() {
+        return deletedAt;
+    }
+
+    /**
+     * 删除时间
+     */
+    public void setDeletedAt(Date deletedAt) {
+        this.deletedAt = deletedAt;
+    }
+
+    /**
+     * 更新时间
+     */
+    public Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    /**
+     * 更新时间
+     */
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
     }
 
     @Override
@@ -233,16 +213,15 @@ public class Users implements Serializable {
         }
         Users other = (Users) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
-            && (this.getUsername() == null ? other.getUsername() == null : this.getUsername().equals(other.getUsername()))
+            && (this.getUserName() == null ? other.getUserName() == null : this.getUserName().equals(other.getUserName()))
             && (this.getPassword() == null ? other.getPassword() == null : this.getPassword().equals(other.getPassword()))
-            && (this.getRealName() == null ? other.getRealName() == null : this.getRealName().equals(other.getRealName()))
+            && (this.getAddr() == null ? other.getAddr() == null : this.getAddr().equals(other.getAddr()))
             && (this.getPhone() == null ? other.getPhone() == null : this.getPhone().equals(other.getPhone()))
             && (this.getRole() == null ? other.getRole() == null : this.getRole().equals(other.getRole()))
-            && (this.getBankCard() == null ? other.getBankCard() == null : this.getBankCard().equals(other.getBankCard()))
+            && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
             && (this.getCreatedAt() == null ? other.getCreatedAt() == null : this.getCreatedAt().equals(other.getCreatedAt()))
             && (this.getDeletedAt() == null ? other.getDeletedAt() == null : this.getDeletedAt().equals(other.getDeletedAt()))
-            && (this.getPoints() == null ? other.getPoints() == null : this.getPoints().equals(other.getPoints()))
-            && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()));
+            && (this.getUpdatedAt() == null ? other.getUpdatedAt() == null : this.getUpdatedAt().equals(other.getUpdatedAt()));
     }
 
     @Override
@@ -250,16 +229,15 @@ public class Users implements Serializable {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
-        result = prime * result + ((getUsername() == null) ? 0 : getUsername().hashCode());
+        result = prime * result + ((getUserName() == null) ? 0 : getUserName().hashCode());
         result = prime * result + ((getPassword() == null) ? 0 : getPassword().hashCode());
-        result = prime * result + ((getRealName() == null) ? 0 : getRealName().hashCode());
+        result = prime * result + ((getAddr() == null) ? 0 : getAddr().hashCode());
         result = prime * result + ((getPhone() == null) ? 0 : getPhone().hashCode());
         result = prime * result + ((getRole() == null) ? 0 : getRole().hashCode());
-        result = prime * result + ((getBankCard() == null) ? 0 : getBankCard().hashCode());
+        result = prime * result + ((getStatus() == null) ? 0 : getStatus().hashCode());
         result = prime * result + ((getCreatedAt() == null) ? 0 : getCreatedAt().hashCode());
         result = prime * result + ((getDeletedAt() == null) ? 0 : getDeletedAt().hashCode());
-        result = prime * result + ((getPoints() == null) ? 0 : getPoints().hashCode());
-        result = prime * result + ((getStatus() == null) ? 0 : getStatus().hashCode());
+        result = prime * result + ((getUpdatedAt() == null) ? 0 : getUpdatedAt().hashCode());
         return result;
     }
 
@@ -270,16 +248,15 @@ public class Users implements Serializable {
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
         sb.append(", id=").append(id);
-        sb.append(", username=").append(username);
+        sb.append(", userName=").append(userName);
         sb.append(", password=").append(password);
-        sb.append(", realName=").append(realName);
+        sb.append(", addr=").append(addr);
         sb.append(", phone=").append(phone);
         sb.append(", role=").append(role);
-        sb.append(", bankCard=").append(bankCard);
+        sb.append(", status=").append(status);
         sb.append(", createdAt=").append(createdAt);
         sb.append(", deletedAt=").append(deletedAt);
-        sb.append(", points=").append(points);
-        sb.append(", status=").append(status);
+        sb.append(", updatedAt=").append(updatedAt);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

@@ -50,8 +50,10 @@ public class LoginUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return users.getUsername();
+        return users.getUserName();
     }
+
+    public Long getUserId(){return users.getId();}
 
     @Override
     public boolean isAccountNonExpired() {
