@@ -1,0 +1,8 @@
+{"time":"2023-10-24 20:01:32.437","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users","service":"com.service.RPCTestService:1.0"},"count":1,"total.cost.milliseconds":378,"success":"Y"}
+{"time":"2023-10-24 20:08:32.434","stat.key":{"method":"test","local.app":"PRD-Order","service":"com.service.RPCTestService:1.0"},"count":1,"total.cost.milliseconds":14,"success":"N"}
+{"time":"2023-10-24 20:09:32.428","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users","service":"com.service.RPCTestService:1.0"},"count":1,"total.cost.milliseconds":362,"success":"Y"}
+{"time":"2023-10-24 20:14:32.429","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users","service":"com.service.RPCTestService:1.0"},"count":2,"total.cost.milliseconds":316,"success":"Y"}
+{"time":"2023-10-24 20:23:32.426","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users","service":"com.service.RPCTestService:1.0"},"count":5,"total.cost.milliseconds":28,"success":"Y"}
+{"time":"2023-10-24 20:25:32.437","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users","service":"com.service.RPCTestService:1.0"},"count":3,"total.cost.milliseconds":331,"success":"Y"}
+{"time":"2023-10-24 20:37:06.534","stat.key":{"method":"test","local.app":"PRD-Order","service":"com.service.RPCTestService:1.0"},"count":2,"total.cost.milliseconds":9,"success":"N"}
+{"time":"2023-10-24 20:39:53.703","stat.key":{"method":"test","local.app":"PRD-Order","remote.app":"PRD-Users1","service":"com.service.RPCTestService:1.0"},"count":1,"total.cost.milliseconds":367,"success":"Y"}

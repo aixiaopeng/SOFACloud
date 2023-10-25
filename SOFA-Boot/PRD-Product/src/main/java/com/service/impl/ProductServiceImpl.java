@@ -45,7 +45,7 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
             queryWrapper.orderByAsc(Product::getPrice);
         }
 
-        if (categoryId != null) {
+        if (categoryId != 0) {
             queryWrapper.eq(Product::getCategory, categoryId);
         }
 

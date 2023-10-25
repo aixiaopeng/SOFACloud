@@ -1,2 +1,51 @@
-2023-10-24 15:37:33,403 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-24 15:37:33,514 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 10:11:00,174 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 10:11:00,181 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 10:20:14,005 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 10:20:14,013 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 10:37:31,902 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 10:37:31,906 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 11:53:04,635 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 11:54:39,491 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:04:52,445 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:06:54,628 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:07:51,348 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:08:19,297 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:10:12,498 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:10:30,986 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:14:58,245 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:15:31,621 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:15:31,625 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 12:18:44,064 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:18:44,069 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 12:19:22,161 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:23:31,231 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 12:23:31,236 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 12:23:47,786 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCTestService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-25 13:06:54,566 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 14:02:29,070 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 14:06:12,311 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 14:38:52,404 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 14:52:31,346 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 15:11:47,337 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-25 15:11:47,350 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-25 15:12:03,251 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCTestService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-25 17:51:29,317 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-25 17:51:29,329 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-25 19:01:25,483 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 19:01:25,490 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 19:13:47,560 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 19:13:47,566 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 19:54:23,874 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 19:54:23,880 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 20:59:38,062 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 20:59:38,068 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 21:11:14,255 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 21:11:14,259 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 21:19:27,924 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 21:19:27,928 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 21:21:40,687 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 21:21:40,691 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 21:24:17,665 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 21:24:17,671 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-25 21:33:30,577 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-25 21:33:30,581 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200

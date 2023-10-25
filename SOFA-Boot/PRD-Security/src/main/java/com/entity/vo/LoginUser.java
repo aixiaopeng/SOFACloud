@@ -50,7 +50,7 @@ public class LoginUser implements UserDetails {
 
     @Override
     public String getUsername() {
-        return users.getUsername();
+        return users.getUserName();
     }
 
     @Override

@@ -48,6 +48,12 @@ public class LoginUser implements UserDetails {
         return users.getPassword();
     }
 
+
+    public String getRole(){
+        return users.getRole();
+    }
+
+
     @Override
     public String getUsername() {
         return users.getUserName();

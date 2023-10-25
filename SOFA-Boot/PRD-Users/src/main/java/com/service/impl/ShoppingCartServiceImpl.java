@@ -28,7 +28,7 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
     private ShoppingCartMapper shoppingCartMapper;
 
     @Override
-    public Boolean addShoppingCart(Long productId) {
+    public void addShoppingCart(Long productId) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         LoginUser userDetails= (LoginUser) principal;
         Long userId=userDetails.getUserId();
@@ -36,14 +36,18 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
         //购物车是否存在该数据
         ShoppingCart shoppingCart = new LambdaQueryChainWrapper<>(shoppingCartMapper).eq(ShoppingCart::getUserId, userId).eq(ShoppingCart::getProductId, productId).one();
         if(!Objects.isNull(shoppingCart)){
-            return false;
+            Integer num=shoppingCart.getNum();
+            shoppingCart.setNum(num+1);
+            shoppingCartMapper.updateById(shoppingCart);
+            return;
         }
 
         shoppingCart=new ShoppingCart();
         shoppingCart.setUserId(userId);
         shoppingCart.setProductId(productId);
+        shoppingCart.setNum(1);
         shoppingCartMapper.insert(shoppingCart);
-        return true;
+
     }
 
     @Override

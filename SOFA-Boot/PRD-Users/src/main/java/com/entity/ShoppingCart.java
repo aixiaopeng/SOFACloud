@@ -1,5 +1,7 @@
 package com.entity;
 
+import io.swagger.models.auth.In;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -38,6 +40,8 @@ public class ShoppingCart implements Serializable {
      */
     private Date updatedAt;
 
+    private Integer num;
+
     private static final long serialVersionUID = 1L;
 
     /**
@@ -47,6 +51,14 @@ public class ShoppingCart implements Serializable {
         return id;
     }
 
+    public Integer getNum(){
+        return num;
+    }
+
+
+    public void setNum(Integer num){
+        this.num=num;
+    }
     /**
      * 购物车记录的唯一标识
      */

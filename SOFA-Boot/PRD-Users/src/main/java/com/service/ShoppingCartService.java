@@ -10,7 +10,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @createDate 2023-10-22 21:33:45
 */
 public interface ShoppingCartService extends IService<ShoppingCart> {
-    Boolean addShoppingCart(Long productId);
+    void addShoppingCart(Long productId);
 
     Page<ShoppingCart> listAddShoppingCart(Long userId,int page, int pageSize);
 }

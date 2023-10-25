@@ -27,7 +27,7 @@ public class Order implements Serializable {
     /**
      * 订单金额
      */
-    private BigDecimal amount;
+    private BigDecimal price;
 
     /**
      * 配送地址
@@ -68,6 +68,31 @@ public class Order implements Serializable {
      * 更新时间
      */
     private Date updatedAt;
+
+    /**
+     * 
+     */
+    private String userName;
+
+    /**
+     * 
+     */
+    private String phone;
+
+    /**
+     * 
+     */
+    private String productName;
+
+    /**
+     * 
+     */
+    private String productImgurl;
+
+    /**
+     * 
+     */
+    private BigDecimal discountprice;
 
     private static final long serialVersionUID = 1L;
 
@@ -116,15 +141,15 @@ public class Order implements Serializable {
     /**
      * 订单金额
      */
-    public BigDecimal getAmount() {
-        return amount;
+    public BigDecimal getPrice() {
+        return price;
     }
 
     /**
      * 订单金额
      */
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
+    public void setPrice(BigDecimal price) {
+        this.price = price;
     }
 
     /**
@@ -239,6 +264,76 @@ public class Order implements Serializable {
         this.updatedAt = updatedAt;
     }
 
+    /**
+     * 
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * 
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    /**
+     * 
+     */
+    public String getPhone() {
+        return phone;
+    }
+
+    /**
+     * 
+     */
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    /**
+     * 
+     */
+    public String getProductName() {
+        return productName;
+    }
+
+    /**
+     * 
+     */
+    public void setProductName(String productName) {
+        this.productName = productName;
+    }
+
+    /**
+     * 
+     */
+    public String getProductImgurl() {
+        return productImgurl;
+    }
+
+    /**
+     * 
+     */
+    public void setProductImgurl(String productImgurl) {
+        this.productImgurl = productImgurl;
+    }
+
+    /**
+     * 
+     */
+    public BigDecimal getDiscountprice() {
+        return discountprice;
+    }
+
+    /**
+     * 
+     */
+    public void setDiscountprice(BigDecimal discountprice) {
+        this.discountprice = discountprice;
+    }
+
     @Override
     public boolean equals(Object that) {
         if (this == that) {
@@ -254,7 +349,7 @@ public class Order implements Serializable {
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
             && (this.getUserId() == null ? other.getUserId() == null : this.getUserId().equals(other.getUserId()))
             && (this.getProductId() == null ? other.getProductId() == null : this.getProductId().equals(other.getProductId()))
-            && (this.getAmount() == null ? other.getAmount() == null : this.getAmount().equals(other.getAmount()))
+            && (this.getPrice() == null ? other.getPrice() == null : this.getPrice().equals(other.getPrice()))
             && (this.getAddr() == null ? other.getAddr() == null : this.getAddr().equals(other.getAddr()))
             && (this.getStatus() == null ? other.getStatus() == null : this.getStatus().equals(other.getStatus()))
             && (this.getNote() == null ? other.getNote() == null : this.getNote().equals(other.getNote()))
@@ -262,7 +357,12 @@ public class Order implements Serializable {
             && (this.getRefundAmount() == null ? other.getRefundAmount() == null : this.getRefundAmount().equals(other.getRefundAmount()))
             && (this.getCreatedAt() == null ? other.getCreatedAt() == null : this.getCreatedAt().equals(other.getCreatedAt()))
             && (this.getDeletedAt() == null ? other.getDeletedAt() == null : this.getDeletedAt().equals(other.getDeletedAt()))
-            && (this.getUpdatedAt() == null ? other.getUpdatedAt() == null : this.getUpdatedAt().equals(other.getUpdatedAt()));
+            && (this.getUpdatedAt() == null ? other.getUpdatedAt() == null : this.getUpdatedAt().equals(other.getUpdatedAt()))
+            && (this.getUserName() == null ? other.getUserName() == null : this.getUserName().equals(other.getUserName()))
+            && (this.getPhone() == null ? other.getPhone() == null : this.getPhone().equals(other.getPhone()))
+            && (this.getProductName() == null ? other.getProductName() == null : this.getProductName().equals(other.getProductName()))
+            && (this.getProductImgurl() == null ? other.getProductImgurl() == null : this.getProductImgurl().equals(other.getProductImgurl()))
+            && (this.getDiscountprice() == null ? other.getDiscountprice() == null : this.getDiscountprice().equals(other.getDiscountprice()));
     }
 
     @Override
@@ -272,7 +372,7 @@ public class Order implements Serializable {
         result = prime * result + ((getId() == null) ? 0 : getId().hashCode());
         result = prime * result + ((getUserId() == null) ? 0 : getUserId().hashCode());
         result = prime * result + ((getProductId() == null) ? 0 : getProductId().hashCode());
-        result = prime * result + ((getAmount() == null) ? 0 : getAmount().hashCode());
+        result = prime * result + ((getPrice() == null) ? 0 : getPrice().hashCode());
         result = prime * result + ((getAddr() == null) ? 0 : getAddr().hashCode());
         result = prime * result + ((getStatus() == null) ? 0 : getStatus().hashCode());
         result = prime * result + ((getNote() == null) ? 0 : getNote().hashCode());
@@ -281,6 +381,11 @@ public class Order implements Serializable {
         result = prime * result + ((getCreatedAt() == null) ? 0 : getCreatedAt().hashCode());
         result = prime * result + ((getDeletedAt() == null) ? 0 : getDeletedAt().hashCode());
         result = prime * result + ((getUpdatedAt() == null) ? 0 : getUpdatedAt().hashCode());
+        result = prime * result + ((getUserName() == null) ? 0 : getUserName().hashCode());
+        result = prime * result + ((getPhone() == null) ? 0 : getPhone().hashCode());
+        result = prime * result + ((getProductName() == null) ? 0 : getProductName().hashCode());
+        result = prime * result + ((getProductImgurl() == null) ? 0 : getProductImgurl().hashCode());
+        result = prime * result + ((getDiscountprice() == null) ? 0 : getDiscountprice().hashCode());
         return result;
     }
 
@@ -293,7 +398,7 @@ public class Order implements Serializable {
         sb.append(", id=").append(id);
         sb.append(", userId=").append(userId);
         sb.append(", productId=").append(productId);
-        sb.append(", amount=").append(amount);
+        sb.append(", price=").append(price);
         sb.append(", addr=").append(addr);
         sb.append(", status=").append(status);
         sb.append(", note=").append(note);
@@ -302,6 +407,11 @@ public class Order implements Serializable {
         sb.append(", createdAt=").append(createdAt);
         sb.append(", deletedAt=").append(deletedAt);
         sb.append(", updatedAt=").append(updatedAt);
+        sb.append(", userName=").append(userName);
+        sb.append(", phone=").append(phone);
+        sb.append(", productName=").append(productName);
+        sb.append(", productImgurl=").append(productImgurl);
+        sb.append(", discountprice=").append(discountprice);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");
         return sb.toString();

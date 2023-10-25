@@ -4,21 +4,25 @@ import com.entity.vo.LoginVo;
 import com.result.Result;
 import com.service.impl.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins ="*")
 public class LoginController {
     @Autowired
     private LoginServiceImpl loginService;
 
     @PostMapping("/login")
     public Result login(@RequestBody LoginVo loginVo)  {      //返回token值，使用jwt生成
-        String token = loginService.login(loginVo);
+        String token=null;
+        try {
+            token = loginService.login(loginVo);
+        }catch (Exception e){
+            e.printStackTrace();
+            return Result.fail("账号或密码错误");
+        }
         return Result.ok(token);
     }
 

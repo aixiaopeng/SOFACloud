@@ -16,6 +16,7 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/category")
+@CrossOrigin(origins ="*")
 public class CategoryController {
 
     @Autowired
@@ -27,14 +28,15 @@ public class CategoryController {
     @PostMapping("/add")
     public Result addCategory(@RequestBody Category category){
 
-        val eq = categoryService.lambdaQuery().eq(Category::getCategoryName, category.getCategoryName());
-        if(!Objects.isNull(eq)){
+        Category category1 = categoryService.lambdaQuery().eq(Category::getCategoryName, category.getCategoryName()).one();
+        if(!Objects.isNull(category1)){
             return Result.fail("商品类型已存在");
         }
 
         categoryService.saveOrUpdate(category);
         return Result.ok("添加成功");
     }
+
 
     @GetMapping("/list")
     public Result listAllCategory(){

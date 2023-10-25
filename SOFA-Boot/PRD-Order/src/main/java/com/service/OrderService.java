@@ -1,7 +1,9 @@
 package com.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.entity.Order;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.entity.dto.OrderDTO;
 
 /**
 * @author 15012
@@ -9,5 +11,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
 * @createDate 2023-10-24 11:48:38
 */
 public interface OrderService extends IService<Order> {
+
+    Page<Order> listAllOrders(int page, int pageSize,Long userId);
+
+    void addOrder(Order order);
 
 }
