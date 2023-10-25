@@ -18,19 +18,23 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
-<!--        <&#45;&#45;网关依赖，导入该依赖后不需要再导入spring的web依赖-->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-gateway</artifactId>-->
-<!--            <version>2.2.10.RELEASE</version>-->
-<!--        </dependency>-->
+        <!--网关 起步依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
+            <version>3.1.8</version>
+        </dependency>
 
-<!--        &lt;!&ndash;nacos服务发现 起步依赖&ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba.cloud</groupId>-->
-<!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
-<!--            <version>2021.1</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <!--            <version>5.5.0</version>-->
+        </dependency>
+        <!--openfeign服务调用 -->
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-core</artifactId>
+        </dependency>
 
 
     </dependencies>
