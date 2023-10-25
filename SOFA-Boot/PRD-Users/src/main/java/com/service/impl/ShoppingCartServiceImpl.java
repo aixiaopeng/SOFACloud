@@ -51,7 +51,11 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
     }
 
     @Override
-    public Page<ShoppingCart> listAddShoppingCart(Long userId,int page, int pageSize) {
+    public Page<ShoppingCart> listAddShoppingCart(int page, int pageSize) {
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        LoginUser userDetails= (LoginUser) principal;
+        Long userId=userDetails.getUserId();
+
         Page<ShoppingCart> Page = new Page<>(page, pageSize);
         Page<ShoppingCart> shoppingCarts = new LambdaQueryChainWrapper<>(shoppingCartMapper).isNull(ShoppingCart::getDeletedAt).eq(ShoppingCart::getUserId,userId).page(Page);
 

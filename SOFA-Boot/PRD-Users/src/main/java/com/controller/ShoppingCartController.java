@@ -29,10 +29,10 @@ public class ShoppingCartController {
     }
 
    @GetMapping("/list")
-    public Result listAddShoppingCart(@RequestParam Long userId,
+    public Result listAddShoppingCart(
                                        @RequestParam(name = "page", defaultValue = "1",required = false) int page,
                                        @RequestParam(name = "pageSize", defaultValue = "10",required = false) int pageSize){
-        return Result.ok(shoppingCartService.listAddShoppingCart(userId,page,pageSize));
+        return Result.ok(shoppingCartService.listAddShoppingCart(page,pageSize));
     }
 
     @DeleteMapping("delete")

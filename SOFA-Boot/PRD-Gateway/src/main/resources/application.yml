@@ -2,22 +2,48 @@ server:
   port: 10010
 
 spring:
-  application:
-    name: PRD-Gateway
   cloud:
-    # 使用 Nacos 作为服务注册发现
-    nacos:
-      discovery:
-        server-addr: 127.0.0.1:8848
-    # 路由网关配置
     gateway:
-      # 配置路由规则
       routes:
-        # 采用自定义路由 ID（有固定用法，不同的 id 有不同的功能，详见：https://cloud.spring.io/spring-cloud-gateway/2.0.x/single/spring-cloud-gateway.html#gateway-route-filters）
-        - id: Order
-          # 采用 LoadBalanceClient 方式请求，以 lb:// 开头，后面的是注册在 Nacos 上的服务名
-          uri: lb://PRD-Order
-          # Predicate 翻译过来是“谓词”的意思，必须，主要作用是匹配用户的请求，有很多种用法
+        - id: baidu_route
+          uri: https://baidu.com
+          predicates:
+            - Path=/baidu/**
+        - id: user
+          uri: http://localhost:8080
           predicates:
             - Path=/user/**
+        - id: order
+          uri: http://localhost:8088
+          predicates:
+            - Path=/order/**
 
+
+
+
+
+
+
+
+
+
+#spring:
+#  application:
+#    name: PRD-Gateway
+#  cloud:
+#    # 使用 Nacos 作为服务注册发现
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#    # 路由网关配置
+#    gateway:
+#      # 配置路由规则
+#      routes:
+#        # 采用自定义路由 ID（有固定用法，不同的 id 有不同的功能，详见：https://cloud.spring.io/spring-cloud-gateway/2.0.x/single/spring-cloud-gateway.html#gateway-route-filters）
+#        - id: Order
+#          # 采用 LoadBalanceClient 方式请求，以 lb:// 开头，后面的是注册在 Nacos 上的服务名
+#          uri: lb://PRD-Order
+#          # Predicate 翻译过来是“谓词”的意思，必须，主要作用是匹配用户的请求，有很多种用法
+#          predicates:
+#            - Path=/user/**
+#

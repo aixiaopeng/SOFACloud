@@ -12,5 +12,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface ShoppingCartService extends IService<ShoppingCart> {
     void addShoppingCart(Long productId);
 
-    Page<ShoppingCart> listAddShoppingCart(Long userId,int page, int pageSize);
+    Page<ShoppingCart> listAddShoppingCart(int page, int pageSize);
 }
