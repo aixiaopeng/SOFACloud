@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.entity.Product;
 import com.entity.ShoppingCart;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.entity.vo.ShoppingCartVO;
 
 import java.util.List;
 
@@ -15,5 +16,5 @@ import java.util.List;
 public interface ShoppingCartService extends IService<ShoppingCart> {
     void addShoppingCart(Long productId);
 
-    List<Product> listAddShoppingCart(int page, int pageSize);
+    List<ShoppingCartVO> listAddShoppingCart(int page, int pageSize);
 }

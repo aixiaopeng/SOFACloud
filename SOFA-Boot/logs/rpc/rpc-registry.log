@@ -41,3 +41,18 @@
 2023-10-26 13:05:16,828 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
 2023-10-26 13:14:43,909 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
 2023-10-26 13:15:37,197 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 13:22:30,687 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 13:37:45,028 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 13:38:14,432 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:DEFAULT]发布开始 
+2023-10-26 13:38:14,513 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:DEFAULT]发布结束 
+2023-10-26 13:38:14,513 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000003: RPC 服务[com.service.ProductService:DEFAULT]发布开始 
+2023-10-26 13:38:14,518 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000004: RPC 服务[com.service.ProductService:DEFAULT]发布结束 
+2023-10-26 13:42:00,058 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 14:13:00,424 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 14:18:32,854 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 14:19:21,424 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 14:19:35,052 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010010003: 订阅 RPC 服务：服务名[com.service.ProductService:DEFAULT] 
+2023-10-26 14:23:52,256 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000003: RPC 服务[com.service.ProductTestService:DEFAULT]发布开始 
+2023-10-26 14:23:52,351 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000004: RPC 服务[com.service.ProductTestService:DEFAULT]发布结束 
+2023-10-26 14:23:52,351 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000003: RPC 服务[com.service.ProductService:DEFAULT]发布开始 
+2023-10-26 14:23:52,357 INFO  main                             com.alipay.sofa.rpc.registry.nacos.NacosRegistry - RPC-010000004: RPC 服务[com.service.ProductService:DEFAULT]发布结束 

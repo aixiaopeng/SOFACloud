@@ -8,15 +8,18 @@ import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapp
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.entity.Product;
+import com.entity.vo.ShoppingCartVO;
 import com.result.Result;
 import com.service.ExamineService;
 import com.service.ProductService;
 import com.mapper.ProductMapper;
 import com.utils.NowTime;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author 15012
@@ -146,14 +149,29 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
     }
 
     @Override
-    public List<Product> listProductByIds(List<Long> ids) {
+    public List<ShoppingCartVO> listProductByIds(List<Long> ids) {
         LambdaQueryWrapper<Product> queryWrapper=new LambdaQueryWrapper();
         queryWrapper.in(Product::getId,ids);
 
 
 
         List<Product> products= productMapper.selectList(queryWrapper);
-        return products;
+
+        List<ShoppingCartVO> shoppingCartVOS = products.stream()
+                .map(product -> {
+                    ShoppingCartVO cartVO = new ShoppingCartVO();
+                    cartVO.setImgUrl(product.getImgurl());
+                    cartVO.setName(product.getName());
+                    cartVO.setDescription(product.getDescription());
+                    cartVO.setPrice(product.getPrice());
+                    cartVO.setDiscountPrice(product.getDiscountPrice());
+                    cartVO.setCreatedAt(NowTime.setNowTime());
+                    cartVO.setProductId(product.getId());
+                    return cartVO;
+                })
+                .collect(Collectors.toList());
+
+        return shoppingCartVOS;
     }
 
     public String makeDraft(Product product){

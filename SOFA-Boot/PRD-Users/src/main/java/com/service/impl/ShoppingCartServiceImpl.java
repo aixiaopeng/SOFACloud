@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.entity.Product;
 import com.entity.ShoppingCart;
 import com.entity.vo.LoginUser;
+import com.entity.vo.ShoppingCartVO;
 import com.service.ProductService;
 import com.service.ShoppingCartService;
 import com.mapper.ShoppingCartMapper;
@@ -15,6 +16,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -60,7 +62,7 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
     }
 
     @Override
-    public List<Product> listAddShoppingCart(int page, int pageSize) {
+    public List<ShoppingCartVO> listAddShoppingCart(int page, int pageSize) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         LoginUser userDetails= (LoginUser) principal;
         Long userId=userDetails.getUserId();
@@ -68,18 +70,32 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
         Page<ShoppingCart> Page = new Page<>(page, pageSize);
 
             List<ShoppingCart> shoppingCarts = new LambdaQueryChainWrapper<>(shoppingCartMapper).isNull(ShoppingCart::getDeletedAt).eq(ShoppingCart::getUserId,userId).page(Page).getRecords();
+
+            //购物车不存在
+            if(shoppingCarts.size()==0){
+                return null;
+            }
+
         // 使用Stream提取productIds
         List<Long> productIds = shoppingCarts.stream()
                 .map(ShoppingCart::getProductId)
                 .collect(Collectors.toList());
 
-        if(Objects.isNull(productIds)){
-            return null;
-        }else {
+            //用map来保存购物车对对应商品的数量
+        Map<Long, Integer> NumMap = shoppingCarts.stream()
+                .collect(Collectors.toMap(ShoppingCart::getProductId, ShoppingCart::getNum));
+
+
             //RPC调用商品模块
-            List<Product> products= productService.listProductByIds(productIds);
-            return products;
+            List<ShoppingCartVO> products= productService.listProductByIds(productIds);
+
+            //遍历购物车并存入数据
+        for (ShoppingCartVO product : products) {
+            product.setNum(NumMap.get(product.getProductId()));
         }
+
+            return products;
+
 
 
     }

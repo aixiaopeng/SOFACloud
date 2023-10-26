@@ -3,6 +3,7 @@ package com.service;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.entity.Product;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.entity.vo.ShoppingCartVO;
 import com.result.Result;
 
 import java.util.List;
@@ -37,6 +38,6 @@ public interface ProductService extends IService<Product> {
 
 
 
-    List<Product> listProductByIds(List<Long> ids);
+    List<ShoppingCartVO> listProductByIds(List<Long> ids);
 
 }

@@ -3,6 +3,7 @@ package com.controller;
 import com.entity.Product;
 import com.entity.ShoppingCart;
 import com.entity.vo.LoginUser;
+import com.entity.vo.ShoppingCartVO;
 import com.mapper.ShoppingCartMapper;
 import com.result.Result;
 import com.service.ShoppingCartService;
@@ -38,7 +39,7 @@ public class ShoppingCartController {
                                        @RequestParam(name = "page", defaultValue = "1",required = false) int page,
                                        @RequestParam(name = "pageSize", defaultValue = "10",required = false) int pageSize){
 
-    List<Product> productList=  shoppingCartService.listAddShoppingCart(page,pageSize);
+    List<ShoppingCartVO> productList=  shoppingCartService.listAddShoppingCart(page,pageSize);
     if(Objects.isNull(productList)){
         return Result.fail("空无一物");
     }
