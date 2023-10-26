@@ -22,7 +22,7 @@ public class LoginUser implements UserDetails {
     private List<String> permissions;
 
 
-    public LoginUser(Users user,List<String> permissions) {
+    public LoginUser(Users user, List<String> permissions) {
         this.users = user;
         this.permissions = permissions;
     }
@@ -48,10 +48,18 @@ public class LoginUser implements UserDetails {
         return users.getPassword();
     }
 
+
+    public String getRole(){
+        return users.getRole();
+    }
+
+
     @Override
     public String getUsername() {
         return users.getUserName();
     }
+
+    public Long getUserId(){return users.getId();}
 
     @Override
     public boolean isAccountNonExpired() {

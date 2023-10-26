@@ -1,51 +1,113 @@
-2023-10-25 10:11:00,174 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 10:11:00,181 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 10:20:14,005 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 10:20:14,013 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 10:37:31,902 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 10:37:31,906 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 11:53:04,635 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 11:54:39,491 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:04:52,445 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:06:54,628 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:07:51,348 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:08:19,297 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:10:12,498 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:10:30,986 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:14:58,245 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:15:31,621 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:15:31,625 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 12:18:44,064 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:18:44,069 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 12:19:22,161 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:23:31,231 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 12:23:31,236 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 12:23:47,786 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCTestService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2023-10-25 13:06:54,566 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 14:02:29,070 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 14:06:12,311 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 14:38:52,404 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 14:52:31,346 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 15:11:47,337 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
-2023-10-25 15:11:47,350 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
-2023-10-25 15:12:03,251 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCTestService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
-2023-10-25 17:51:29,317 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
-2023-10-25 17:51:29,329 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
-2023-10-25 19:01:25,483 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 19:01:25,490 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 19:13:47,560 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 19:13:47,566 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 19:54:23,874 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 19:54:23,880 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 20:59:38,062 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 20:59:38,068 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 21:11:14,255 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 21:11:14,259 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 21:19:27,924 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 21:19:27,928 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 21:21:40,687 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 21:21:40,691 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 21:24:17,665 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 21:24:17,671 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
-2023-10-25 21:33:30,577 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
-2023-10-25 21:33:30,581 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 08:44:53,462 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 08:44:53,470 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 08:45:19,759 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 08:47:29,215 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 08:47:29,220 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 08:47:45,754 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 08:49:44,326 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 08:49:44,332 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 09:19:53,065 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 09:19:53,070 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 09:35:08,842 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 09:35:08,847 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 09:58:31,199 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 10:10:08,226 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 10:52:25,234 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 10:52:25,239 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 10:52:48,764 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 10:52:48,769 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 11:07:58,152 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCTestService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 11:18:24,364 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 11:20:12,058 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 11:20:12,058 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 11:20:18,690 INFO  [DefaultConnectionManager#444] [RpcTaskScannerThread-2-thread-1] task(poolKey=192.168.253.1:12200) is not done, do not scan the connection pool
+2023-10-26 11:20:19,226 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:20:20,240 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:20:21,254 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:20:27,195 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 11:20:27,200 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 11:31:21,145 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-5] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 11:31:21,146 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-5] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 11:31:22,731 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:31:23,734 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:31:24,746 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 11:31:34,484 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 11:31:34,490 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:01:57,609 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:04:32,562 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:09:08,906 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-9] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:09:08,906 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-9] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:09:17,243 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:09:18,252 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:09:19,260 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:09:25,815 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:09:25,820 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:19:31,562 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-13] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:19:31,562 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-13] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:19:40,666 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:19:41,055 INFO  [DefaultConnectionManager#444] [RpcTaskScannerThread-2-thread-1] task(poolKey=192.168.253.1:12200) is not done, do not scan the connection pool
+2023-10-26 12:19:41,691 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:19:42,700 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:19:53,711 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:19:54,732 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:19:58,142 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:19:58,147 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:22:00,044 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-2] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:22:00,044 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-2] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:22:05,846 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:22:06,851 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:22:07,864 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:22:11,501 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:22:11,506 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:29:23,733 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-6] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:29:23,733 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-6] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:29:29,152 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:29:30,211 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:29:31,223 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:29:41,533 INFO  [DefaultConnectionManager#444] [RpcTaskScannerThread-2-thread-1] task(poolKey=192.168.253.1:12200) is not done, do not scan the connection pool
+2023-10-26 12:29:42,171 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:29:42,177 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:29:42,231 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:31:31,691 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-11] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:31:31,691 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-11] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:31:33,342 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:31:34,351 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:31:35,360 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:31:45,589 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:31:45,594 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:58:55,781 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-15] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 12:58:55,781 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-15] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 12:58:57,880 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:58:58,895 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:58:59,899 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:59:10,911 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 12:59:10,981 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 12:59:10,987 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 12:59:35,105 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 13:00:51,620 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-3] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:00:51,620 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-3] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:01:02,507 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 13:01:02,795 INFO  [DefaultConnectionManager#444] [RpcTaskScannerThread-2-thread-1] task(poolKey=192.168.253.1:12200) is not done, do not scan the connection pool
+2023-10-26 13:01:03,528 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 13:01:04,531 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.RPCTestService-2-T1] Create connection to 192.168.253.1:12200 error!
+2023-10-26 13:01:10,538 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 13:01:10,545 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-26 13:01:29,162 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:01:31,096 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
+2023-10-26 13:02:41,253 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:02:41,254 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:02:51,124 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:04:14,254 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:04:14,255 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:04:23,249 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:05:04,247 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:05:04,247 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:05:16,966 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:14:29,768 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:14:29,769 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:14:44,058 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:15:25,178 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:15:25,179 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-26 13:15:37,356 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.ProductService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-26 13:22:18,704 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-26 13:22:18,706 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200

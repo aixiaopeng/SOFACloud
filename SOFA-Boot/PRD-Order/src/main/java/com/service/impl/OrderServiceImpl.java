@@ -5,11 +5,13 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.entity.Order;
 import com.entity.dto.OrderDTO;
+import com.entity.vo.LoginUser;
 import com.service.OrderService;
 import com.mapper.OrderMapper;
 import com.sun.org.apache.xpath.internal.operations.Or;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 /**
@@ -25,7 +27,12 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order>
     private OrderMapper orderMapper;
 
     @Override
-    public Page<Order> listAllOrders(int page, int pageSize, Long userId) {
+    public Page<Order> listAllOrders(int page, int pageSize) {
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        LoginUser userDetails= (LoginUser) principal;
+        Long userId=userDetails.getUserId();
+
+
         Page<Order> Page = new Page<>(page, pageSize);
         Page<Order> orderPage = new LambdaQueryChainWrapper<>(orderMapper).isNull(Order::getDeletedAt).eq(Order::getUserId,userId).page(Page);
 

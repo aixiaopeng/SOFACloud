@@ -12,7 +12,7 @@ import com.entity.dto.OrderDTO;
 */
 public interface OrderService extends IService<Order> {
 
-    Page<Order> listAllOrders(int page, int pageSize,Long userId);
+    Page<Order> listAllOrders(int page, int pageSize);
 
     void addOrder(Order order);
 

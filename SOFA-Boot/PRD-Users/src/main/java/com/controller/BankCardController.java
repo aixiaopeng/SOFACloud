@@ -14,7 +14,6 @@ import java.util.Date;
 
 @RestController
 @RequestMapping("/bankcard")
-@CrossOrigin(origins ="*")
 public class BankCardController {
 
     @Autowired
@@ -53,7 +52,8 @@ public class BankCardController {
 
     @GetMapping("/recharge")
     public Result recharge(@RequestParam Long bankCardId, @RequestParam BigDecimal price){
-
+        bankCardService.recharge(bankCardId,price);
+        return Result.ok("消费成功");
     }
 
 }

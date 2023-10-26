@@ -50,6 +50,12 @@ public class ProductController {
 
     }
 
+    @GetMapping("/list/newproduct")
+    public Result listAllNewProduct(@RequestParam(name = "page", defaultValue = "1",required = false) int page,
+                                    @RequestParam(name = "pageSize", defaultValue = "10",required = false) int pageSize){
+        return Result.ok(productService.listAllNewProduct(page,pageSize));
+    }
+
     @GetMapping("/list/pic")
     public Result listPic(){
        return Result.ok(productService.listPic());
@@ -69,5 +75,45 @@ public class ProductController {
         product.setDeletedAt(NowTime.setNowTime());
         productService.updateById(product);
         return Result.ok("删除成功");
+    }
+
+    @PutMapping("/get")
+    public Result get(@PathVariable Long id){
+        return productService.getProduct(id);
+    }
+
+    @PutMapping("/update")
+    public Result update(@RequestBody Product product){
+        return Result.ok(productService.editProduct(product));
+    }
+
+    @PostMapping("/downline")
+    public Result downline(@PathVariable Long id){
+        return Result.ok(productService.downlineProduct(id));
+    }
+
+    @PostMapping("/upline")
+    public Result upline(@PathVariable Long id){
+        return Result.ok(productService.uplineProduct(id));
+    }
+
+    @GetMapping("/manageList")
+    public Result getManageList(int page,int PageSize,String name){
+        return Result.ok(productService.ListManageProduct(page,PageSize,name));
+    }
+
+    @PostMapping("/examSucc")
+    public Result examSucc(@RequestParam("id") Long id,@RequestParam("note") String s){
+        return Result.ok(productService.ExamSuccess(id,s));
+    }
+
+    @PostMapping("/examFail")
+    public Result examFail(@RequestParam("id") Long id,@RequestParam("note") String s){
+        return Result.ok(productService.ExamFail(id,s));
+    }
+
+    @PostMapping("/draft")
+    public Result makeDraft(@RequestBody Product product){
+        return Result.ok(productService.makeDraft(product));
     }
 }

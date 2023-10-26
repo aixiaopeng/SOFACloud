@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/history")
-@CrossOrigin(origins ="*")
 public class QueryHistoryController {
 
     @Autowired

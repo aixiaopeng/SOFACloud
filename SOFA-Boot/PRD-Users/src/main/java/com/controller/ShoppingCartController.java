@@ -1,5 +1,6 @@
 package com.controller;
 
+import com.entity.Product;
 import com.entity.ShoppingCart;
 import com.entity.vo.LoginUser;
 import com.mapper.ShoppingCartMapper;
@@ -12,9 +13,13 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletResponse;
+import java.util.List;
+import java.util.Objects;
+
 @RestController
 @RequestMapping("/shoppingcart")
-@CrossOrigin(origins ="*")
+
 public class ShoppingCartController {
 
     @Autowired
@@ -32,7 +37,12 @@ public class ShoppingCartController {
     public Result listAddShoppingCart(
                                        @RequestParam(name = "page", defaultValue = "1",required = false) int page,
                                        @RequestParam(name = "pageSize", defaultValue = "10",required = false) int pageSize){
-        return Result.ok(shoppingCartService.listAddShoppingCart(page,pageSize));
+
+    List<Product> productList=  shoppingCartService.listAddShoppingCart(page,pageSize);
+    if(Objects.isNull(productList)){
+        return Result.fail("空无一物");
+    }
+        return Result.ok(productList);
     }
 
     @DeleteMapping("delete")

@@ -1,1 +1,1 @@
-{"time":"2023-10-25 12:25:30.730","stat.key":{"method":"test","local.app":"PRD-Users","remote.app":"PRD-Order","service":"com.service.RPCTestService:1.0"},"count":1,"total.cost.milliseconds":11,"success":"Y"}
+{"time":"2023-10-26 13:04:10.098","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":63,"success":"N"}
