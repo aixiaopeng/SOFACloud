@@ -56,4 +56,12 @@ public class BankCardController {
         return Result.ok("消费成功");
     }
 
+
+    @GetMapping("/list")
+    public Result listBankCard(){
+        return  Result.ok(bankCardService.listBankCart());
+    }
+
+
+
 }

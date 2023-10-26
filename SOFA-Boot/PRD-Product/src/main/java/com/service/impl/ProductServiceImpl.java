@@ -27,9 +27,9 @@ import java.util.stream.Collectors;
  * @createDate 2023-10-22 12:34:08
  */
 @Service
-@SofaService(interfaceType = ProductService.class, bindings = {
-        @SofaServiceBinding(bindingType = "bolt")
-})
+//@SofaService(interfaceType = ProductService.class, bindings = {
+//        @SofaServiceBinding(bindingType = "bolt")
+//})
 public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
         implements ProductService {
 

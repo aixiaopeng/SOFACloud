@@ -1,6 +1,7 @@
 package com.controller;
 
 import com.entity.vo.LoginVo;
+import com.entity.vo.UserVO;
 import com.result.Result;
 import com.service.impl.LoginServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,14 +17,14 @@ public class LoginController {
 
     @PostMapping("/login")
     public Result login(@RequestBody LoginVo loginVo)  {      //返回token值，使用jwt生成
-        String token=null;
+        UserVO userVO;
         try {
-            token = loginService.login(loginVo);
+            userVO = loginService.login(loginVo);
         }catch (Exception e){
             e.printStackTrace();
             return Result.fail("账号或密码错误");
         }
-        return Result.ok(token);
+        return Result.ok(userVO);
     }
 
     @RequestMapping("/logout")

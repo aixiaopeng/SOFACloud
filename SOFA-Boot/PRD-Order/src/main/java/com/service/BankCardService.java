@@ -1,10 +1,9 @@
 package com.service;
 
-import com.entity.BankCard;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.entity.BankCard;
 
 import java.math.BigDecimal;
-import java.util.List;
 
 /**
 * @author 15012
@@ -12,13 +11,8 @@ import java.util.List;
 * @createDate 2023-10-22 21:33:45
 */
 public interface BankCardService extends IService<BankCard> {
-    Boolean addBankCard(BankCard bankCard);
-
-    Boolean consume(Long bankCardId, BigDecimal price);
 
     Boolean recharge(Long bankCardId, BigDecimal price);
 
-    List<BankCard> listBankCart();
 
-    void deleteBankCard(Long cardId);
 }

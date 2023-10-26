@@ -3,8 +3,10 @@ package com.service.impl;
 
 import com.entity.vo.LoginUser;
 import com.entity.vo.LoginVo;
+import com.entity.vo.UserVO;
 import com.service.LoginService;
 import com.utils.JwtUtil;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -39,7 +41,7 @@ public class LoginServiceImpl implements LoginService {
     }
 
     @Override
-    public String login(LoginVo loginVo) {
+    public UserVO login(LoginVo loginVo) {
         //进行用户认证
         UsernamePasswordAuthenticationToken authenticationToken=new UsernamePasswordAuthenticationToken(loginVo.getUsername(),loginVo.getPassword());
         Authentication authentication=authenticationManager.authenticate(authenticationToken);
@@ -55,6 +57,10 @@ public class LoginServiceImpl implements LoginService {
 
         redisTemplate.opsForValue().set("login:"+loginUser.getUsername(),loginUser);
 
-        return jwtToken;
+        UserVO userVO=new UserVO();
+        BeanUtils.copyProperties(loginUser,userVO);
+        userVO.setToken(jwtToken);
+
+        return userVO;
     }
 }

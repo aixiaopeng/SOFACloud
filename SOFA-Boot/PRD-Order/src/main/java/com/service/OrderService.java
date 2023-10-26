@@ -4,6 +4,9 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.entity.Order;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.entity.dto.OrderDTO;
+import com.entity.vo.OrderVO;
+
+import java.math.BigDecimal;
 
 /**
 * @author 15012
@@ -14,6 +17,7 @@ public interface OrderService extends IService<Order> {
 
     Page<Order> listAllOrders(int page, int pageSize);
 
-    void addOrder(Order order);
+    Order addOrder(Order order);
+
 
 }

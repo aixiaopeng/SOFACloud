@@ -7,3 +7,8 @@
 2023-10-26 14:16:30,599 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-11] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12200
 2023-10-26 14:16:30,600 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-12] Heartbeat exception caught! Error code=CONNECTION_CLOSED, The address is 192.168.253.1:12200
 2023-10-26 14:22:09,376 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-7] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12200
+2023-10-26 15:02:41,462 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-4] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12200
+2023-10-26 15:04:16,255 ERROR [RpcHeartbeatTrigger$2#142] [bolt-netty-client-worker-1-thread-1] Send heartbeat failed! Id=43, to remoteAddr=192.168.253.1:12200
+2023-10-26 15:04:16,260 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-5] Heartbeat exception caught! Error code=CONNECTION_CLOSED, The address is 192.168.253.1:12200
+2023-10-26 15:04:16,260 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-5] Heartbeat exception caught! Error code=CONNECTION_CLOSED, The address is 192.168.253.1:12200
+2023-10-26 15:09:29,174 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-18] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12200

@@ -1,8 +1,9 @@
 package com.service;
 
 import com.entity.vo.LoginVo;
+import com.entity.vo.UserVO;
 
 public interface LoginService {
-    String login(LoginVo loginVo);
+    UserVO login(LoginVo loginVo);
      void logout();
 }

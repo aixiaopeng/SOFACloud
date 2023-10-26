@@ -2,6 +2,7 @@ package com.service;
 
 import com.entity.QueryHistory;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.entity.vo.ShoppingCartVO;
 
 import java.util.List;
 
@@ -13,7 +14,7 @@ import java.util.List;
 public interface QueryHistoryService extends IService<QueryHistory> {
     void addHistory(Long productId);
 
-    List<QueryHistory> listHistory();
+    List<ShoppingCartVO> listHistory();
 
     void deleteHistory(Long productId);
 }

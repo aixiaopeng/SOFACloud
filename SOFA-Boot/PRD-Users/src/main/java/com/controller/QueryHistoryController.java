@@ -1,9 +1,13 @@
 package com.controller;
 
+import com.entity.vo.ShoppingCartVO;
 import com.result.Result;
 import com.service.QueryHistoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.Objects;
 
 
 @RestController
@@ -21,8 +25,11 @@ public class QueryHistoryController {
 
     @GetMapping("/list")
     public Result listHistory(){
-
-        return Result.ok(queryHistoryService.listHistory());
+       List<ShoppingCartVO> shoppingCartVOS= queryHistoryService.listHistory();
+       if(Objects.isNull(shoppingCartVOS)){
+           return Result.fail("空空如也");
+       }
+        return Result.ok(shoppingCartVOS);
     }
 
     @DeleteMapping("/delete")

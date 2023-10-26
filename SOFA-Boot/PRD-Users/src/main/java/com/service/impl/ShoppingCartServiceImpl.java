@@ -33,8 +33,8 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
     private ShoppingCartMapper shoppingCartMapper;
 
 
-    @SofaReference(interfaceType = ProductService.class, jvmFirst = false,
-            binding = @SofaReferenceBinding(bindingType = "bolt"))
+
+    @Autowired
     private ProductService productService;
 
 
@@ -46,7 +46,8 @@ public class ShoppingCartServiceImpl extends ServiceImpl<ShoppingCartMapper, Sho
 
         //购物车是否存在该数据
         ShoppingCart shoppingCart = new LambdaQueryChainWrapper<>(shoppingCartMapper).eq(ShoppingCart::getUserId, userId).eq(ShoppingCart::getProductId, productId).one();
-        if(!Objects.isNull(shoppingCart)){
+
+        if(!Objects.isNull(shoppingCart)){ //存在于数据库
             Integer num=shoppingCart.getNum();
             shoppingCart.setNum(num+1);
             shoppingCartMapper.updateById(shoppingCart);

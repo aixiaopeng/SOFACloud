@@ -48,6 +48,10 @@ public class LoginUser implements UserDetails {
         return users.getPassword();
     }
 
+    public String getPhone(){
+        return users.getPhone();
+    }
+
 
     public String getRole(){
         return users.getRole();

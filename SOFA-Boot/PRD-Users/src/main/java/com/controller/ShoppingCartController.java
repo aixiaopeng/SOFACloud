@@ -26,6 +26,7 @@ public class ShoppingCartController {
     @Autowired
     private ShoppingCartService shoppingCartService;
 
+
     @GetMapping("/add")
     public Result addShoppingCart(@RequestParam Long productId){
       shoppingCartService.addShoppingCart(productId);

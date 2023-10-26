@@ -33,3 +33,6 @@
 {"time":"2023-10-26 14:21:13.849","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":9,"success":"Y"}
 {"time":"2023-10-26 14:23:13.851","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":6,"success":"Y"}
 {"time":"2023-10-26 14:24:51.655","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":2,"total.cost.milliseconds":106,"success":"Y"}
+{"time":"2023-10-26 14:28:01.345","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":95,"success":"Y"}
+{"time":"2023-10-26 15:18:01.362","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":45,"success":"Y"}
+{"time":"2023-10-26 16:01:01.352","stat.key":{"method":"listProductByIds","local.app":"PRD-Product","remote.app":"PRD-Users","service":"com.service.ProductService:1.0"},"count":1,"total.cost.milliseconds":14,"success":"Y"}
