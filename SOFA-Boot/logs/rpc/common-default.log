@@ -1455,3 +1455,84 @@
 2023-10-27 22:37:34,969 INFO  main                             - service published.  interfaceId[com.service.ProductService]; protocol[bolt]
 2023-10-27 22:37:38,772 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
 2023-10-27 22:37:38,824 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.RPCProductService::bolt with bean id rpc-cfg-0
+2023-10-27 22:37:55,022 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:7536
+2023-10-27 22:37:55,032 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 22:37:55,043 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 22:37:55,317 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 22:37:55,317 INFO  main                             - Install Module: sofaTracer
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdateBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.getOne" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.saveBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.page" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.updateBatchById" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.listMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.pageMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdate" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.count" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 WARN  main                             - Method with same name "com.service.ProductService.list" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:37:55,327 INFO  main                             - Export provider config : com.service.ProductService::bolt with bean id rpc-cfg-0
+2023-10-27 22:37:56,012 INFO  main                             - service published.  interfaceId[com.service.ProductService]; protocol[bolt]
+2023-10-27 22:39:08,525 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:26636
+2023-10-27 22:39:08,535 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 22:39:08,547 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 22:39:08,822 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 22:39:08,822 INFO  main                             - Install Module: sofaTracer
+2023-10-27 22:39:08,839 INFO  main                             - Refer consumer config : bolt://com.service.RPCBankCardService: with bean id rpc-cfg-0
+2023-10-27 22:39:09,223 INFO  main                             - Refer consumer config : bolt://com.service.ProductService: with bean id rpc-cfg-1
+2023-10-27 22:50:02,680 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-27 22:50:02,682 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductService::bolt with bean id rpc-cfg-0
+2023-10-27 22:50:17,196 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:34612
+2023-10-27 22:50:17,206 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 22:50:17,219 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 22:50:17,490 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 22:50:17,490 INFO  main                             - Install Module: sofaTracer
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.count" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.list" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdateBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.saveBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,499 WARN  main                             - Method with same name "com.service.ProductService.page" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.updateBatchById" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.getOne" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdate" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.pageMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 WARN  main                             - Method with same name "com.service.ProductService.listMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 22:50:17,500 INFO  main                             - Export provider config : com.service.ProductService::bolt with bean id rpc-cfg-0
+2023-10-27 22:50:18,173 INFO  main                             - service published.  interfaceId[com.service.ProductService]; protocol[bolt]
+2023-10-27 23:04:09,267 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-27 23:04:09,270 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.RPCBankCardService: with bean id rpc-cfg-0
+2023-10-27 23:04:09,273 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductService: with bean id rpc-cfg-1
+2023-10-27 23:04:09,276 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-27 23:04:09,277 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-27 23:04:09,277 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-27 23:04:09,277 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-27 23:04:30,856 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:9184
+2023-10-27 23:04:30,868 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 23:04:30,881 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 23:04:31,161 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 23:04:31,161 INFO  main                             - Install Module: sofaTracer
+2023-10-27 23:04:31,179 INFO  main                             - Refer consumer config : bolt://com.service.RPCBankCardService: with bean id rpc-cfg-0
+2023-10-27 23:04:31,568 INFO  main                             - Refer consumer config : bolt://com.service.ProductService: with bean id rpc-cfg-1
+2023-10-27 23:32:54,611 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework catch JVM shutdown event, Run shutdown hook now.
+2023-10-27 23:32:54,613 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.RPCBankCardService: with bean id rpc-cfg-0
+2023-10-27 23:32:54,615 INFO  SOFA-RPC-ShutdownHook            - UnRefer consumer config : bolt://com.service.ProductService: with bean id rpc-cfg-1
+2023-10-27 23:32:54,618 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: fault-tolerance
+2023-10-27 23:32:54,618 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer-resteasy
+2023-10-27 23:32:54,618 INFO  SOFA-RPC-ShutdownHook            - Uninstall Module: sofaTracer
+2023-10-27 23:32:54,619 WARN  SOFA-RPC-ShutdownHook            - SOFA RPC Framework has been release all resources ...
+2023-10-27 23:33:07,405 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:34112
+2023-10-27 23:33:07,416 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 23:33:07,428 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 23:33:07,699 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 23:33:07,699 INFO  main                             - Install Module: sofaTracer
+2023-10-27 23:33:07,716 INFO  main                             - Refer consumer config : bolt://com.service.RPCBankCardService: with bean id rpc-cfg-0
+2023-10-27 23:33:08,094 INFO  main                             - Refer consumer config : bolt://com.service.ProductService: with bean id rpc-cfg-1

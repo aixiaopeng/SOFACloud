@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 
 public interface RPCBankCardService extends IService<BankCard> {
-    Boolean consume(HttpServletRequest request, Long bankCardId, OrderDTO orderDTO);
+    Boolean consume(Long bankCardId, OrderDTO orderDTO);
 
 
 }

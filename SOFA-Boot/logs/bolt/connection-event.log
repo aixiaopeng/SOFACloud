@@ -2069,3 +2069,84 @@
 2023-10-27 22:34:33,408 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-6] Connection channel inactive: 192.168.253.1:58647
 2023-10-27 22:34:33,409 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-6] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:58647], event: CLOSE
 2023-10-27 22:34:33,409 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-6] Connection channel unregistered: 192.168.253.1:58647
+2023-10-27 22:39:09,140 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:39:09,141 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-1] Try connect to 192.168.253.1:12200
+2023-10-27 22:39:09,145 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel active: 192.168.253.1:12200
+2023-10-27 22:39:09,146 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-1] trigger user event, local[192.168.253.1:59401], remote[192.168.253.1:12200], event: CONNECT
+2023-10-27 22:39:09,153 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:59401], event: CONNECT
+2023-10-27 22:39:09,154 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.253.1:59401
+2023-10-27 22:39:09,154 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.253.1:59401
+2023-10-27 22:39:09,238 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-2] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:39:09,239 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-2] Try connect to 192.168.253.1:12201
+2023-10-27 22:39:09,239 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel active: 192.168.253.1:12201
+2023-10-27 22:39:09,239 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-2] trigger user event, local[192.168.253.1:59403], remote[192.168.253.1:12201], event: CONNECT
+2023-10-27 22:39:09,249 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[192.168.253.1:12201], remote[192.168.253.1:59403], event: CONNECT
+2023-10-27 22:39:09,250 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.253.1:59403
+2023-10-27 22:39:09,250 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.253.1:59403
+2023-10-27 22:50:03,680 WARN  [ConnectionEventHandler#203] [bolt-netty-client-worker-1-thread-2] ExceptionCaught in connection: local[192.168.253.1:59403], remote[192.168.253.1:12201], close the connection! Cause[IOException:远程主机强迫关闭了一个现有的连接。]
+2023-10-27 22:50:03,680 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection closed: 192.168.253.1:12201
+2023-10-27 22:50:03,681 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection closed: 192.168.253.1:12201
+2023-10-27 22:50:03,682 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel inactive: 192.168.253.1:12201
+2023-10-27 22:50:03,683 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-2] trigger user event, local[192.168.253.1:59403], remote[192.168.253.1:12201], event: CLOSE
+2023-10-27 22:50:03,683 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel unregistered: 192.168.253.1:12201
+2023-10-27 22:50:09,604 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-3] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:50:09,604 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-3] Try connect to 192.168.253.1:12201
+2023-10-27 22:50:10,604 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-3] Connection closed: UNKNOWN-ADDR
+2023-10-27 22:50:10,605 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-3] Connection channel unregistered: UNKNOWN-ADDR
+2023-10-27 22:50:10,608 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-4] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:50:10,608 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-4] Try connect to 192.168.253.1:12201
+2023-10-27 22:50:11,612 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-4] Connection closed: UNKNOWN-ADDR
+2023-10-27 22:50:11,612 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-4] Connection channel unregistered: UNKNOWN-ADDR
+2023-10-27 22:50:11,613 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-5] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:50:11,613 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-5] Try connect to 192.168.253.1:12201
+2023-10-27 22:50:12,615 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-5] Connection closed: UNKNOWN-ADDR
+2023-10-27 22:50:12,615 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-5] Connection channel unregistered: UNKNOWN-ADDR
+2023-10-27 22:50:22,618 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-6] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 22:50:22,618 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-6] Try connect to 192.168.253.1:12201
+2023-10-27 22:50:22,618 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-6] Connection channel active: 192.168.253.1:12201
+2023-10-27 22:50:22,618 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-6] trigger user event, local[192.168.253.1:61496], remote[192.168.253.1:12201], event: CONNECT
+2023-10-27 22:50:22,630 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[192.168.253.1:12201], remote[192.168.253.1:61496], event: CONNECT
+2023-10-27 22:50:22,631 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel registered: 192.168.253.1:61496
+2023-10-27 22:50:22,632 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel active: 192.168.253.1:61496
+2023-10-27 23:04:09,273 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-6] Connection closed: 192.168.253.1:12201
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection closed: 192.168.253.1:12200
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel inactive: 192.168.253.1:12200
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-6] Connection channel inactive: 192.168.253.1:12201
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-1] trigger user event, local[192.168.253.1:59401], remote[192.168.253.1:12200], event: CLOSE
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel unregistered: 192.168.253.1:12200
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-6] trigger user event, local[192.168.253.1:61496], remote[192.168.253.1:12201], event: CLOSE
+2023-10-27 23:04:09,274 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-6] Connection channel unregistered: 192.168.253.1:12201
+2023-10-27 23:04:09,277 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 192.168.253.1:61496
+2023-10-27 23:04:09,277 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[192.168.253.1:12201], remote[192.168.253.1:61496], event: CLOSE
+2023-10-27 23:04:09,277 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 192.168.253.1:61496
+2023-10-27 23:04:09,279 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel inactive: 192.168.253.1:59401
+2023-10-27 23:04:09,280 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-1] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:59401], event: CLOSE
+2023-10-27 23:04:09,281 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-1] Connection channel unregistered: 192.168.253.1:59401
+2023-10-27 23:04:31,483 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-1] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 23:04:31,483 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-1] Try connect to 192.168.253.1:12200
+2023-10-27 23:04:31,486 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel active: 192.168.253.1:12200
+2023-10-27 23:04:31,488 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-2] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:58007], event: CONNECT
+2023-10-27 23:04:31,488 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-1] trigger user event, local[192.168.253.1:58007], remote[192.168.253.1:12200], event: CONNECT
+2023-10-27 23:04:31,489 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel registered: 192.168.253.1:58007
+2023-10-27 23:04:31,489 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel active: 192.168.253.1:58007
+2023-10-27 23:04:31,583 INFO  [ConnectionEventHandler#299] [bolt-netty-client-worker-1-thread-2] Connection channel registered: UNKNOWN-ADDR
+2023-10-27 23:04:31,584 INFO  [ConnectionEventHandler#80] [bolt-netty-client-worker-1-thread-2] Try connect to 192.168.253.1:12201
+2023-10-27 23:04:31,584 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel active: 192.168.253.1:12201
+2023-10-27 23:04:31,584 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-2] trigger user event, local[192.168.253.1:58009], remote[192.168.253.1:12201], event: CONNECT
+2023-10-27 23:04:31,585 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-2] trigger user event, local[192.168.253.1:12201], remote[192.168.253.1:58009], event: CONNECT
+2023-10-27 23:04:31,586 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel registered: 192.168.253.1:58009
+2023-10-27 23:04:31,586 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel active: 192.168.253.1:58009
+2023-10-27 23:32:54,615 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection closed: 192.168.253.1:12201
+2023-10-27 23:32:54,615 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection closed: 192.168.253.1:12200
+2023-10-27 23:32:54,616 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel inactive: 192.168.253.1:58009
+2023-10-27 23:32:54,616 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-2] trigger user event, local[192.168.253.1:12201], remote[192.168.253.1:58009], event: CLOSE
+2023-10-27 23:32:54,616 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel unregistered: 192.168.253.1:58009
+2023-10-27 23:32:54,616 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel inactive: 192.168.253.1:58007
+2023-10-27 23:32:54,616 INFO  [ConnectionEventHandler#175] [Rpc-netty-server-worker-1-thread-2] trigger user event, local[192.168.253.1:12200], remote[192.168.253.1:58007], event: CLOSE
+2023-10-27 23:32:54,617 INFO  [ConnectionEventHandler#297] [Rpc-netty-server-worker-1-thread-2] Connection channel unregistered: 192.168.253.1:58007
+2023-10-27 23:32:54,617 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel inactive: 192.168.253.1:12201
+2023-10-27 23:32:54,617 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel inactive: 192.168.253.1:12200
+2023-10-27 23:32:54,618 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-2] trigger user event, local[192.168.253.1:58009], remote[192.168.253.1:12201], event: CLOSE
+2023-10-27 23:32:54,618 INFO  [ConnectionEventHandler#175] [bolt-netty-client-worker-1-thread-1] trigger user event, local[192.168.253.1:58007], remote[192.168.253.1:12200], event: CLOSE
+2023-10-27 23:32:54,618 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-1] Connection channel unregistered: 192.168.253.1:12200
+2023-10-27 23:32:54,618 INFO  [ConnectionEventHandler#297] [bolt-netty-client-worker-1-thread-2] Connection channel unregistered: 192.168.253.1:12201

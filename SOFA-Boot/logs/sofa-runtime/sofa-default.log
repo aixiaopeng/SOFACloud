@@ -895,3 +895,43 @@ com.alipay.sofa.rpc.core.exception.SofaRpcRuntimeException: The value of config 
 2023-10-27 22:37:39,498 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.RPCProductService.
 2023-10-27 22:37:39,498 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.RPCProductService.
 2023-10-27 22:37:39,498 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.RPCProductService.
+2023-10-27 22:37:48,773 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-27 22:37:55,000 INFO  main                             - Registering component: service:com.service.ProductService
+2023-10-27 22:37:55,000 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:37:55,322 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:37:55,322 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:37:55,351 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:37:55,351 INFO  main                             - Register Service - com.service.ProductService
+2023-10-27 22:39:03,801 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-27 22:39:08,482 INFO  main                             - Registering component: reference:com.service.RPCBankCardService:#1942117546
+2023-10-27 22:39:08,483 INFO  main                             -  >>In Binding [bolt] Begins - com.service.RPCBankCardService.
+2023-10-27 22:39:09,221 INFO  main                             -  >>In Binding [bolt] Ends - com.service.RPCBankCardService.
+2023-10-27 22:39:09,221 INFO  main                             - Registering component: reference:com.service.ProductService:#1942117546
+2023-10-27 22:39:09,221 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:39:09,319 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:50:03,145 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:50:03,147 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:50:03,148 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:50:03,148 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:50:10,881 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-27 22:50:17,174 INFO  main                             - Registering component: service:com.service.ProductService
+2023-10-27 22:50:17,174 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:50:17,495 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:50:17,495 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 22:50:17,524 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 22:50:17,524 INFO  main                             - Register Service - com.service.ProductService
+2023-10-27 23:04:09,746 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.RPCBankCardService.
+2023-10-27 23:04:09,748 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.RPCBankCardService.
+2023-10-27 23:04:09,748 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 23:04:09,748 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 23:04:25,199 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-27 23:04:30,809 INFO  main                             - Registering component: reference:com.service.RPCBankCardService:#-1091972529
+2023-10-27 23:04:30,810 INFO  main                             -  >>In Binding [bolt] Begins - com.service.RPCBankCardService.
+2023-10-27 23:04:31,566 INFO  main                             -  >>In Binding [bolt] Ends - com.service.RPCBankCardService.
+2023-10-27 23:04:31,567 INFO  main                             - Registering component: reference:com.service.ProductService:#-1091972529
+2023-10-27 23:04:31,567 INFO  main                             -  >>In Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 23:04:31,680 INFO  main                             -  >>In Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 23:32:55,070 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.RPCBankCardService.
+2023-10-27 23:32:55,072 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.RPCBankCardService.
+2023-10-27 23:32:55,072 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 23:32:55,072 INFO  SpringApplicationShutdownHook    -  >>Un-in Binding [bolt] Ends - com.service.ProductService.

@@ -11,6 +11,8 @@ import com.service.BankCardService;
 import com.service.RPCBankCardService;
 import com.utils.CommonRedisHelper;
 import com.utils.JwtUtil;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletRequest;
@@ -22,24 +24,18 @@ import java.util.Objects;
 public class RPCBankCardServiceImpl extends ServiceImpl<BankCardMapper, BankCard>
         implements RPCBankCardService {
 
-    @Override
-    public Boolean consume(HttpServletRequest request, Long bankCardId, OrderDTO orderDTO) {
+    @Autowired
+    private RedisTemplate redisTemplate;
 
-        String orderToken=request.getHeader("orderToken");
-        if(StringUtils.isNullOrEmpty(orderToken)){
-            return false;
-        }
-        String orderNum;
-        try {
-            orderNum= JwtUtil.parseJWT(orderToken).getSubject();
-        }catch (Exception e){
-            e.printStackTrace();
-            throw new RuntimeException("未找到token");
-        }
+    @Override
+    public Boolean consume( Long bankCardId, OrderDTO orderDTO) {
+
+      String token=  (String)redisTemplate.opsForValue().get("orderToken:"+orderDTO.getOrderId());
+
 
 
         Boolean result=false;
-        if(orderNum.equals(orderDTO.getOrderId())){  //若token与订单匹配
+        if(token.equals(orderDTO.getOrderToken())){  //若token与订单匹配
             CommonRedisHelper redisHelper = new CommonRedisHelper();
             Boolean flag=redisHelper.lock("consumeKey");
 

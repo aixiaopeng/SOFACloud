@@ -9,6 +9,8 @@ import java.util.Date;
 public class OrderDTO {
     private Long orderId;
 
+    private String orderToken;
+
     private Long productId;
 
     private Integer num;

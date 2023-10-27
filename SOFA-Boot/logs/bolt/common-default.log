@@ -224,3 +224,22 @@
 2023-10-27 22:34:29,957 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCBankCardService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
 2023-10-27 22:37:34,803 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12200 
 2023-10-27 22:37:34,808 WARN  [AbstractRemotingServer#66] [main] Server started on port 12200
+2023-10-27 22:37:55,890 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12201 
+2023-10-27 22:37:55,895 WARN  [AbstractRemotingServer#66] [main] Server started on port 12201
+2023-10-27 22:39:09,058 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCBankCardService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-27 22:50:03,681 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-2] Close the connection to remote address=192.168.253.1:12201, result=true, cause=null
+2023-10-27 22:50:03,682 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-2] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12201
+2023-10-27 22:50:10,604 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.ProductService-5-T1] Create connection to 192.168.253.1:12201 error!
+2023-10-27 22:50:11,612 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.ProductService-5-T1] Create connection to 192.168.253.1:12201 error!
+2023-10-27 22:50:12,615 WARN  [AbstractConnectionFactory#217] [SOFA-CLI-RC-com.service.ProductService-5-T1] Create connection to 192.168.253.1:12201 error!
+2023-10-27 22:50:18,049 WARN  [AbstractRemotingServer#64] [main] Prepare to start server on port 12201 
+2023-10-27 22:50:18,055 WARN  [AbstractRemotingServer#66] [main] Server started on port 12201
+2023-10-27 23:04:09,274 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-6] Close the connection to remote address=192.168.253.1:12201, result=true, cause=null
+2023-10-27 23:04:09,274 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-27 23:04:09,274 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-27 23:04:09,274 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-6] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12201
+2023-10-27 23:04:31,400 WARN  [AbstractConnectionFactory#185] [SOFA-CLI-CONN-com.service.RPCBankCardService-3-T1] [client side] bolt netty low water mark is 32768 bytes, high water mark is 65536 bytes
+2023-10-27 23:32:54,616 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-2] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12201
+2023-10-27 23:32:54,616 WARN  [DefaultConnectionManager#342] [bolt-netty-client-worker-1-thread-1] Remove and close the last connection in ConnectionPool with poolKey 192.168.253.1:12200
+2023-10-27 23:32:54,618 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-1] Close the connection to remote address=192.168.253.1:12200, result=true, cause=null
+2023-10-27 23:32:54,618 INFO  [Connection$1#309] [bolt-netty-client-worker-1-thread-2] Close the connection to remote address=192.168.253.1:12201, result=true, cause=null

@@ -16,6 +16,8 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.TimeUnit;
+
 /**
 * @author 15012
 * @description 针对表【order(订单信息表，用于存储用户订单信息)】的数据库操作Service实现
@@ -74,21 +76,21 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders>
             e.printStackTrace();
         }
 
-       Orders orders= new LambdaQueryChainWrapper<>(orderMapper).eq(Orders::getUserId,userId).eq(Orders::getProductId,order.getProductId()).eq(Orders::getCreatedAt,order.getCreatedAt()).one();
 
         //生成token返回前端
       String orderToken=  JwtUtil.createJWT(orderNum.toString());
 
-
+        //token存入redis,10分钟过期
+        redisTemplate.opsForValue().set("orderToken:"+orderNum,orderToken,10, TimeUnit.MINUTES);
 
         OrderVO orderDTO=new OrderVO();
         orderDTO.setOrderToken(orderToken);
 
-
+        orderDTO.setOrderId(order.getOrderNum());
         orderDTO.setUserName(order.getUserName());
         orderDTO.setPhone(order.getPhone());
         orderDTO.setAddr(order.getAddr());
-
+        orderDTO.setNote(order.getNote());
 
         orderDTO.setPrice(order.getPrice());
         orderDTO.setProductName(order.getProductName());

@@ -93,3 +93,5 @@
 2023-10-27 20:54:00,778 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
 2023-10-27 20:57:45,314 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
 2023-10-27 22:37:34,809 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 22:37:55,895 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 22:50:18,055 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201

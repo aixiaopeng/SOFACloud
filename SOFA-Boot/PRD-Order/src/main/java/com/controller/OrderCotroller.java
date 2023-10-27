@@ -48,7 +48,7 @@ public class OrderCotroller {
 
     @PostMapping("/pay")
     @Transactional
-    public Result payment(@RequestBody Long bankCart, OrderDTO orderDTO){
+    public Result payment(@RequestBody Long bankCart, @RequestBody OrderDTO orderDTO){
        Boolean bankFlag= bankCardService.comsume(bankCart,orderDTO);
        Boolean productFlag= productService.consumeProduct(orderDTO.getProductId(),orderDTO.getNum().longValue());
 
