@@ -79,3 +79,16 @@
 2023-10-27 15:44:23,839 INFO  SpringApplicationShutdownHook    -  <<Pre un-out Binding [bolt] Ends - com.service.BankCardService.
 2023-10-27 15:44:23,839 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Begins - com.service.BankCardService.
 2023-10-27 15:44:23,839 INFO  SpringApplicationShutdownHook    -  <<Post un-out Binding [bolt] Ends - com.service.BankCardService.
+2023-10-27 15:44:33,201 INFO  main                             - SOFABoot Runtime Starting!
+2023-10-27 15:44:39,551 INFO  main                             - Registering component: service:com.service.ProductService
+2023-10-27 15:44:39,551 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 15:44:39,894 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 15:44:39,894 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.ProductService.
+2023-10-27 15:44:39,925 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.ProductService.
+2023-10-27 15:44:39,925 INFO  main                             - Register Service - com.service.ProductService
+2023-10-27 15:44:39,926 INFO  main                             - Registering component: service:com.service.BankCardService
+2023-10-27 15:44:39,926 INFO  main                             -  <<PreOut Binding [bolt] Begins - com.service.BankCardService.
+2023-10-27 15:44:39,926 INFO  main                             -  <<PreOut Binding [bolt] Ends - com.service.BankCardService.
+2023-10-27 15:44:39,926 INFO  main                             -  <<Out Binding [bolt] Begins - com.service.BankCardService.
+2023-10-27 15:44:39,927 INFO  main                             -  <<Out Binding [bolt] Ends - com.service.BankCardService.
+2023-10-27 15:44:39,927 INFO  main                             - Register Service - com.service.BankCardService

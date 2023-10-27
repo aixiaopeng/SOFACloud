@@ -145,3 +145,42 @@
 2023-10-27 15:44:23,379 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.BankCardService::bolt with bean id rpc-cfg-1
 2023-10-27 15:44:23,839 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.ProductService::bolt with bean id rpc-cfg-0
 2023-10-27 15:44:23,839 INFO  SpringApplicationShutdownHook    - Unexport provider config : com.service.BankCardService::bolt with bean id rpc-cfg-1
+2023-10-27 15:44:39,576 INFO  main                             - Welcome! Loading SOFA RPC Framework : 5.8.3_20220304140022, PID is:21096
+2023-10-27 15:44:39,588 INFO  main                             - Install Module: fault-tolerance
+2023-10-27 15:44:39,601 INFO  main                             - Install Module: sofaTracer-resteasy
+2023-10-27 15:44:39,889 INFO  main                             - The module lookout does not need to be loaded.
+2023-10-27 15:44:39,889 INFO  main                             - Install Module: sofaTracer
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.count" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.list" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.updateBatchById" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.saveBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,898 WARN  main                             - Method with same name "com.service.ProductService.pageMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.listMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.page" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.getOne" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdate" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 WARN  main                             - Method with same name "com.service.ProductService.saveOrUpdateBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,899 INFO  main                             - Export provider config : com.service.ProductService::bolt with bean id rpc-cfg-0
+2023-10-27 15:44:39,926 WARN  main                             - Method with same name "com.service.BankCardService.count" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.update" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.list" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.updateBatchById" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.saveBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.pageMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.listMaps" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.page" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.getOne" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.saveOrUpdate" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.listObjs" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 WARN  main                             - Method with same name "com.service.BankCardService.saveOrUpdateBatch" exists ! The usage of overloading method in rpc is deprecated.
+2023-10-27 15:44:39,927 INFO  main                             - Export provider config : com.service.BankCardService::bolt with bean id rpc-cfg-1
+2023-10-27 15:44:40,591 INFO  main                             - service published.  interfaceId[com.service.BankCardService]; protocol[bolt]
+2023-10-27 15:44:40,598 INFO  main                             - service published.  interfaceId[com.service.ProductService]; protocol[bolt]

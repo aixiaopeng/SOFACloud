@@ -11,31 +11,29 @@
  Target Server Version : 80032
  File Encoding         : 65001
 
- Date: 24/10/2023 15:48:04
+ Date: 27/10/2023 16:19:54
 */
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for product_comment
+-- Table structure for query_history
 -- ----------------------------
-DROP TABLE IF EXISTS `product_comment`;
-CREATE TABLE `product_comment`  (
-  `id` bigint NOT NULL COMMENT '评论ID',
-  `user_id` bigint NULL DEFAULT NULL COMMENT '用户ID',
-  `product_id` bigint NULL DEFAULT NULL COMMENT '产品ID',
-  `star` int NULL DEFAULT NULL COMMENT '评分',
-  `content` text CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL COMMENT '评论内容',
-  `imgUrl` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NULL DEFAULT NULL COMMENT '图片URL',
+DROP TABLE IF EXISTS `query_history`;
+CREATE TABLE `query_history`  (
+  `id` bigint NOT NULL AUTO_INCREMENT COMMENT '购物车记录的唯一标识',
+  `user_id` bigint NULL DEFAULT NULL COMMENT '用户 ID，与用户表相关联',
+  `product_id` bigint NULL DEFAULT NULL COMMENT '产品 ID，与产品表相关联',
   `created_at` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `deleted_at` datetime NULL DEFAULT NULL COMMENT '删除时间',
   `updated_at` datetime NULL DEFAULT CURRENT_TIMESTAMP COMMENT '更新时间',
+  `id1` bigint NOT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
--- Records of product_comment
+-- Records of query_history
 -- ----------------------------
 
 SET FOREIGN_KEY_CHECKS = 1;

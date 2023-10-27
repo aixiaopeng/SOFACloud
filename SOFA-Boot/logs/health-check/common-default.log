@@ -194,3 +194,31 @@
 2023-10-27 15:30:58,327 INFO  RMI TCP Connection(3)-192.168.43.226 - HealthChecker[sofaComponentHealthChecker] liveness check start.
 2023-10-27 15:30:58,327 INFO  RMI TCP Connection(3)-192.168.43.226 - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
 2023-10-27 15:30:58,327 INFO  RMI TCP Connection(3)-192.168.43.226 - SOFABoot HealthChecker liveness check result: success.
+2023-10-27 15:44:38,418 INFO  main                             - Create health-check thread pool, corePoolSize: 1, maxPoolSize: 1.
+2023-10-27 15:44:39,969 INFO  main                             - Found 1 HealthChecker implementation:sofaComponentHealthChecker
+2023-10-27 15:44:39,970 INFO  main                             - Found 3 HealthIndicator implementation:diskSpaceHealthIndicator,pingHealthContributor,redisHealthContributor
+2023-10-27 15:44:39,971 INFO  main                             - Found 1 ReadinessCheckCallback implementation: rpcAfterHealthCheckCallback
+2023-10-27 15:44:39,971 INFO  main                             - Begin SOFABoot HealthChecker readiness check.
+2023-10-27 15:44:39,971 INFO  main                             - SOFABoot HealthChecker readiness check 1 item: SOFABoot-Components.
+2023-10-27 15:44:39,972 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check start.
+2023-10-27 15:44:39,974 INFO  main                             - HealthChecker[sofaComponentHealthChecker] readiness check success with 0 retry.
+2023-10-27 15:44:39,974 INFO  main                             - SOFABoot HealthChecker readiness check result: success.
+2023-10-27 15:44:39,974 INFO  main                             - Begin SOFABoot HealthIndicator readiness check.
+2023-10-27 15:44:39,974 INFO  main                             - SOFABoot HealthIndicator readiness check 3 item: diskSpaceHealthIndicator,pingHealthContributor,redisHealthContributor.
+2023-10-27 15:44:39,975 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check start.
+2023-10-27 15:44:39,977 INFO  main                             - HealthIndicator[diskSpaceHealthIndicator] readiness check success.
+2023-10-27 15:44:39,977 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check start.
+2023-10-27 15:44:39,978 INFO  main                             - HealthIndicator[pingHealthContributor] readiness check success.
+2023-10-27 15:44:39,978 INFO  main                             - HealthIndicator[redisHealthContributor] readiness check start.
+2023-10-27 15:44:40,410 INFO  main                             - HealthIndicator[redisHealthContributor] readiness check success.
+2023-10-27 15:44:40,410 INFO  main                             - SOFABoot HealthIndicator readiness check result: success.
+2023-10-27 15:44:40,410 INFO  main                             - Invoking all readiness check callbacks...
+2023-10-27 15:44:40,410 INFO  main                             - Begin ReadinessCheckCallback readiness check
+2023-10-27 15:44:40,599 INFO  main                             - SOFABoot ReadinessCheckCallback[rpcAfterHealthCheckCallback] check success.
+2023-10-27 15:44:40,599 INFO  main                             - ReadinessCheckCallback readiness check result: success.
+2023-10-27 15:44:40,599 INFO  main                             - Readiness check result: success
+2023-10-27 15:44:40,971 INFO  RMI TCP Connection(1)-192.168.43.226 - Begin SOFABoot HealthChecker liveness check.
+2023-10-27 15:44:40,972 INFO  RMI TCP Connection(1)-192.168.43.226 - SOFABoot HealthChecker liveness check 1 item: SOFABoot-Components.
+2023-10-27 15:44:40,972 INFO  RMI TCP Connection(1)-192.168.43.226 - HealthChecker[sofaComponentHealthChecker] liveness check start.
+2023-10-27 15:44:40,972 INFO  RMI TCP Connection(1)-192.168.43.226 - HealthChecker[sofaComponentHealthChecker] liveness check success with 0 retry.
+2023-10-27 15:44:40,972 INFO  RMI TCP Connection(1)-192.168.43.226 - SOFABoot HealthChecker liveness check result: success.
