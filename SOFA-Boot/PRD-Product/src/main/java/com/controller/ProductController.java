@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/product")
-@CrossOrigin(origins ="*")
 public class ProductController {
 
     @Autowired
@@ -34,7 +33,7 @@ public class ProductController {
     public Result listAllProduct( @RequestParam(name = "page", defaultValue = "1",required = false) int page,
                                   @RequestParam(name = "pageSize", defaultValue = "10",required = false) int pageSize,
                                   @RequestParam(name = "sorted", defaultValue = "0",required = false) int sorted,
-                                  @RequestParam(name = "categoryId",required = false) Long categoryId){
+                                  @RequestParam(name = "categoryId",defaultValue = "0",required = false) Long categoryId){
 
 
         return Result.ok(productService.listAllProduct(page,pageSize,sorted,categoryId));
@@ -70,7 +69,7 @@ public class ProductController {
 
 
     @DeleteMapping("delete")
-    public Result delete(@PathVariable Long id){
+    public Result delete(@RequestParam Long id){
         Product product = productService.getById(id);
         product.setDeletedAt(NowTime.setNowTime());
         productService.updateById(product);
@@ -98,7 +97,7 @@ public class ProductController {
     }
 
     @GetMapping("/manageList")
-    public Result getManageList(int page,int PageSize,String name){
+    public Result getManageList(@RequestParam int page,@RequestParam int PageSize,@RequestParam(required = false) String name){
         return Result.ok(productService.ListManageProduct(page,PageSize,name));
     }
 

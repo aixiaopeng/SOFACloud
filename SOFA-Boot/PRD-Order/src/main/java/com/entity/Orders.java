@@ -56,11 +56,13 @@ public class Orders implements Serializable {
     /**
      * 退款时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date refundTime;
 
     /**
      * 退款金额
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private BigDecimal refundAmount;
 
     /**
@@ -72,11 +74,13 @@ public class Orders implements Serializable {
     /**
      * 删除时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date deletedAt;
 
     /**
      * 更新时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date updatedAt;
 
     /**

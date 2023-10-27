@@ -34,7 +34,7 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders>
 
 
     @Override
-    public Page<Orders> listAllOrders(int page, int pageSize) {
+    public Page<Orders> listOrders(int page, int pageSize) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         LoginUser userDetails= (LoginUser) principal;
         Long userId=userDetails.getUserId();
@@ -42,6 +42,14 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders>
 
         Page<Orders> Page = new Page<>(page, pageSize);
         Page<Orders> orderPage = new LambdaQueryChainWrapper<>(orderMapper).isNull(Orders::getDeletedAt).eq(Orders::getUserId,userId).page(Page);
+
+        return orderPage;
+    }
+
+    @Override
+    public Page<Orders> listAllOrders(int page, int pageSize) {
+        Page<Orders> Page = new Page<>(page, pageSize);
+        Page<Orders> orderPage = new LambdaQueryChainWrapper<>(orderMapper).isNull(Orders::getDeletedAt).page(Page);
 
         return orderPage;
     }

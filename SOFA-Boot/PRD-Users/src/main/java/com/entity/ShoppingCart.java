@@ -1,5 +1,6 @@
 package com.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import io.swagger.models.auth.In;
 
 import java.io.Serializable;
@@ -28,16 +29,19 @@ public class ShoppingCart implements Serializable {
     /**
      * 记录创建时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date createdAt;
 
     /**
      * 记录删除时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date deletedAt;
 
     /**
      * 记录更新时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date updatedAt;
 
     private Integer num;

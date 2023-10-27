@@ -99,3 +99,25 @@
 2023-10-26 19:52:23,379 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
 2023-10-26 20:04:23,759 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
 2023-10-26 20:30:51,721 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 17:50:35,879 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:16:54,836 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:19:17,424 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:25:46,853 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:26:46,490 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:33:48,450 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:39:01,778 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T1     - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:42:21,041 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T2     - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:51:51,053 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 19:52:43,333 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T1     - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:52:57,320 ERROR SOFA-SEV-BOLT-BIZ-12200-3-T1     - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCBankCardService:1.0] 
+2023-10-27 19:57:19,937 ERROR SOFA-SEV-BOLT-BIZ-12200-3-T2     - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCBankCardService:1.0] 
+2023-10-27 20:04:04,758 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:13:43,422 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:16:21,605 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:19:32,305 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:22:59,625 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:33:52,193 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:34:17,986 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:53:42,823 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 20:57:31,871 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping
+2023-10-27 22:37:38,828 ERROR RPC-RES-MONITOR                  - Error happened when the thread pool monitor is sleeping

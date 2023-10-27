@@ -16,7 +16,6 @@ import java.util.Objects;
 
 @RestController
 @RequestMapping("/category")
-@CrossOrigin(origins ="*")
 public class CategoryController {
 
     @Autowired
@@ -47,7 +46,7 @@ public class CategoryController {
     }
 
     @DeleteMapping("/delete")
-    public Result deleteCategory(@PathVariable Long id){
+    public Result deleteCategory(@RequestParam Long id){
         Category category= categoryService.getById(id);
         category.setDeletedAt(NowTime.setNowTime());
         categoryService.updateById(category);

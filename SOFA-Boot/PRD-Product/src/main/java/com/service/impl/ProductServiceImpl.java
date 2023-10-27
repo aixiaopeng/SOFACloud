@@ -19,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
@@ -27,9 +28,7 @@ import java.util.stream.Collectors;
  * @createDate 2023-10-22 12:34:08
  */
 @Service
-//@SofaService(interfaceType = ProductService.class, bindings = {
-//        @SofaServiceBinding(bindingType = "bolt")
-//})
+@SofaService(interfaceType = ProductService.class,bindings = {@SofaServiceBinding(bindingType = "bolt")})
 public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
         implements ProductService {
 
@@ -95,7 +94,14 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
     public Page<Product> ListManageProduct(int page,int pageSize,String name){
         Page<Product> pageInfo=new Page<>(page,pageSize);
         LambdaQueryWrapper<Product> lqw=new LambdaQueryWrapper<Product>();
-        lqw.like(Product::getName,name).orderByDesc(Product::getCreatedAt);
+       if(Objects.isNull(name)){
+           lqw.orderByDesc(Product::getCreatedAt);
+           lqw.isNull(Product::getDeletedAt);
+       }else {
+           lqw.like(Product::getName,name).orderByDesc(Product::getCreatedAt);
+           lqw.isNull(Product::getDeletedAt);
+       }
+
         Page<Product> publicPage = this.page(pageInfo, lqw);
         return publicPage;
     }
@@ -149,6 +155,20 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
     }
 
     @Override
+    public Boolean consumeProduct(Long productId, Long num) {
+        Product product= this.getById(productId);
+        Integer productNum=product.getNum();
+        if (num>productNum){
+            return false;
+        }
+
+        product.setNum((productNum-num.intValue()));
+        product.setSold(product.getSold()+num.intValue());
+        this.saveOrUpdate(product);
+        return true;
+    }
+
+    @Override
     public List<ShoppingCartVO> listProductByIds(List<Long> ids) {
         LambdaQueryWrapper<Product> queryWrapper=new LambdaQueryWrapper();
         queryWrapper.in(Product::getId,ids);
@@ -174,6 +194,9 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
         return shoppingCartVOS;
     }
 
+
+
+
     public String makeDraft(Product product){
         product.setStatus(2);
         this.save(product);
@@ -187,6 +210,9 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
         BeanUtils.copyProperties(product,examine);
         return "已发起审核请求，请等待审核";
     }*/
+
+
+
 
 }
 

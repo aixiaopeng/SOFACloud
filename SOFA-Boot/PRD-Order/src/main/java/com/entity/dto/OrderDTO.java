@@ -9,6 +9,10 @@ import java.util.Date;
 public class OrderDTO {
     private Long orderId;
 
+    private Long productId;
+
+    private Integer num;
+
     private BigDecimal price;
 
 

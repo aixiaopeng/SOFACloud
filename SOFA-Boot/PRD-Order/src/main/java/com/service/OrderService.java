@@ -13,6 +13,8 @@ import com.entity.vo.OrderVO;
 */
 public interface OrderService extends IService<Orders> {
 
+    Page<Orders> listOrders(int page, int pageSize);
+
     Page<Orders> listAllOrders(int page, int pageSize);
 
     OrderVO addOrder(Orders order);

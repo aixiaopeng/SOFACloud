@@ -2,10 +2,8 @@ package com.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
-import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.entity.QueryHistory;
-import com.entity.ShoppingCart;
 import com.entity.vo.LoginUser;
 import com.entity.vo.ShoppingCartVO;
 import com.service.ProductService;
@@ -16,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
@@ -30,8 +29,8 @@ import java.util.stream.Collectors;
 public class QueryHistoryServiceImpl extends ServiceImpl<QueryHistoryMapper, QueryHistory>
     implements QueryHistoryService{
 
-    @Autowired
-    private QueryHistoryMapper   queryHistoryMapper;
+    @Resource
+    private QueryHistoryMapper queryHistoryMapper;
 
     @Autowired
     private ProductService productService;

@@ -20,3 +20,16 @@
 2023-10-26 21:41:09,168 ERROR [RpcHeartbeatTrigger$2#142] [bolt-netty-client-worker-1-thread-1] Send heartbeat failed! Id=63, to remoteAddr=192.168.253.1:12200
 2023-10-26 21:41:09,171 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-4] Heartbeat exception caught! Error code=CONNECTION_CLOSED, The address is 192.168.253.1:12200
 2023-10-26 21:41:09,171 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-3] Heartbeat exception caught! Error code=CONNECTION_CLOSED, The address is 192.168.253.1:12200
+2023-10-27 20:19:30,185 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-15] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:19:30,185 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-16] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:21:27,379 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-14] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:22:12,413 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-5] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:22:12,413 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-4] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:22:27,409 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-10] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:22:27,409 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-8] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201
+2023-10-27 20:22:41,413 ERROR [RpcHeartbeatTrigger#73] [bolt-netty-client-worker-1-thread-13] Heartbeat failed for 4 times, close the connection from client side: 192.168.253.1:12201 
+2023-10-27 20:22:54,715 ERROR [RpcHeartBeatProcessor$1#63] [Rpc-netty-server-worker-1-thread-1] Send heartbeat ack failed! Id=200, to remoteAddr=192.168.253.1:64504
+2023-10-27 20:22:54,715 ERROR [RpcHeartBeatProcessor$1#63] [Rpc-netty-server-worker-1-thread-1] Send heartbeat ack failed! Id=201, to remoteAddr=192.168.253.1:64504
+2023-10-27 20:22:54,715 ERROR [RpcHeartBeatProcessor$1#63] [Rpc-netty-server-worker-1-thread-1] Send heartbeat ack failed! Id=204, to remoteAddr=192.168.253.1:64504
+2023-10-27 20:22:54,716 ERROR [RpcHeartBeatProcessor$1#63] [Rpc-netty-server-worker-1-thread-1] Send heartbeat ack failed! Id=205, to remoteAddr=192.168.253.1:64504
+2023-10-27 21:32:12,148 ERROR [RpcHeartbeatTrigger$1#112] [Bolt-default-executor-4-thread-6] Heartbeat exception caught! Error code=TIMEOUT, The address is 192.168.253.1:12201

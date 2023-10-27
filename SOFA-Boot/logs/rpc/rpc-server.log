@@ -54,3 +54,42 @@
 2023-10-27 15:16:21,899 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
 2023-10-27 15:30:57,884 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
 2023-10-27 15:44:40,473 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 17:13:07,394 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 17:13:16,935 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 17:50:35,820 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 17:52:11,330 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:01:47,940 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:02:10,292 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:16:50,966 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:17:40,065 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:18:58,175 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:19:14,662 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:22:53,558 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:25:57,015 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:26:03,252 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:26:49,212 INFO  SOFA-RPC-ShutdownHook            com.alipay.sofa.rpc.server.ServerFactory - Destroy all server now!
+2023-10-27 19:26:59,305 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:29:04,417 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12202
+2023-10-27 19:29:23,467 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 19:33:44,460 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12202
+2023-10-27 19:34:00,989 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 19:39:01,778 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T1     com.alipay.sofa.rpc.server.bolt.BoltServerProcessor - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:39:53,397 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:42:21,041 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T2     com.alipay.sofa.rpc.server.bolt.BoltServerProcessor - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:51:47,374 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 19:52:05,459 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 19:52:43,333 ERROR SOFA-SEV-BOLT-BIZ-12201-3-T1     com.alipay.sofa.rpc.server.bolt.BoltServerProcessor - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCProductService:1.0] 
+2023-10-27 19:52:57,320 ERROR SOFA-SEV-BOLT-BIZ-12200-3-T1     com.alipay.sofa.rpc.server.bolt.BoltServerProcessor - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCBankCardService:1.0] 
+2023-10-27 19:57:19,937 ERROR SOFA-SEV-BOLT-BIZ-12200-3-T2     com.alipay.sofa.rpc.server.bolt.BoltServerProcessor - RPC-020100011: 未找到需要调用的方法：[test]；服务名为：[com.service.RPCBankCardService:1.0] 
+2023-10-27 20:03:59,866 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 20:04:18,197 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:14:03,428 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:16:37,528 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:21:08,795 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:23:12,529 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:34:11,812 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:34:31,023 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:34:51,579 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
+2023-10-27 20:54:00,778 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 20:57:45,314 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12201
+2023-10-27 22:37:34,809 INFO  main                             com.alipay.sofa.rpc.server.bolt.BoltServer - Bolt server has been bind to 0.0.0.0:12200
