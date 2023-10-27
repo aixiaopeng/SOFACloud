@@ -105,7 +105,7 @@ public class ProductServiceImpl extends ServiceImpl<ProductMapper, Product>
         //return this.getById(id);
     }
     public String editProduct(Product product){
-        saveOrUpdate(product);
+        this.saveOrUpdate(product);
         return "修改成功";
     }
 

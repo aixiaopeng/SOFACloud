@@ -17,7 +17,7 @@ public class LoginController {
 
     @PostMapping("/login")
     public Result login(@RequestBody LoginVo loginVo)  {      //返回token值，使用jwt生成
-        UserVO userVO;
+        UserVO userVO=null;
         try {
             userVO = loginService.login(loginVo);
         }catch (Exception e){

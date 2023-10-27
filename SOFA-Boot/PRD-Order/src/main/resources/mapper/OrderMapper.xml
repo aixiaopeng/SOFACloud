@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mapper.OrderMapper">
 
-    <resultMap id="BaseResultMap" type="com.entity.Order">
+    <resultMap id="BaseResultMap" type="com.entity.Orders">
             <id property="id" column="id" jdbcType="BIGINT"/>
             <result property="userId" column="user_id" jdbcType="BIGINT"/>
             <result property="productId" column="product_id" jdbcType="BIGINT"/>

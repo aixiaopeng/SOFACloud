@@ -3,10 +3,11 @@ package com.entity.vo;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.Date;
 
 @Data
 public class OrderVO {
-    private Long id;
+    private Long orderId;
 
     private String userName;
 
@@ -22,5 +23,9 @@ public class OrderVO {
 
     private String note;
 
+
+    private String orderToken;
+
+    private Date createdAt;
 
 }

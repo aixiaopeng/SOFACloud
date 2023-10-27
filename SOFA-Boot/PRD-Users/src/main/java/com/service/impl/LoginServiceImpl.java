@@ -1,9 +1,14 @@
 package com.service.impl;
 
 
+import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
+import com.entity.BankCard;
 import com.entity.vo.LoginUser;
 import com.entity.vo.LoginVo;
 import com.entity.vo.UserVO;
+import com.mapper.BankCardMapper;
+import com.mysql.jdbc.StringUtils;
+import com.service.BankCardService;
 import com.service.LoginService;
 import com.utils.JwtUtil;
 import org.springframework.beans.BeanUtils;
@@ -16,6 +21,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;
+import java.util.concurrent.TimeUnit;
 
 @Service
 public class LoginServiceImpl implements LoginService {
@@ -26,6 +32,8 @@ public class LoginServiceImpl implements LoginService {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    @Autowired
+    private BankCardMapper bankCardMapper;
 
     @Override
     public void logout() {
@@ -55,11 +63,24 @@ public class LoginServiceImpl implements LoginService {
         LoginUser loginUser=(LoginUser)authentication.getPrincipal();
         String jwtToken = JwtUtil.createJWT(loginUser.getUsername());
 
-        redisTemplate.opsForValue().set("login:"+loginUser.getUsername(),loginUser);
+        redisTemplate.opsForValue().set("login:"+loginUser.getUsername(),loginUser,1, TimeUnit.HOURS);
+
+
 
         UserVO userVO=new UserVO();
-        BeanUtils.copyProperties(loginUser,userVO);
+
+        userVO.setUserId(loginUser.getUserId());
+        userVO.setUserName(loginUser.getUsername());
+        userVO.setName(loginUser.getName());
+        userVO.setAddr(loginUser.getAddr());
+        userVO.setPhone(loginUser.getPhone());
         userVO.setToken(jwtToken);
+
+        BankCard bankCard= new LambdaQueryChainWrapper<>(bankCardMapper).eq(BankCard::getUserId,loginUser.getUserId()).one();
+        if(!Objects.isNull(bankCard)){
+            userVO.setBankCard(bankCard.getCardNum());
+        }
+
 
         return userVO;
     }

@@ -1,5 +1,8 @@
 package com.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.Data;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
@@ -8,11 +11,17 @@ import java.util.Date;
  * 订单信息表，用于存储用户订单信息
  * @TableName order
  */
-public class Order implements Serializable {
+@Data
+public class Orders implements Serializable {
     /**
      * 订单ID
      */
+
     private Long id;
+
+    private Long orderNo;
+
+    private Long orderNum;
 
     /**
      * 用户ID，关联到用户表
@@ -57,6 +66,7 @@ public class Order implements Serializable {
     /**
      * 创建时间
      */
+    @JsonFormat(locale="zh", timezone="GMT+8", pattern="yyyy-MM-dd")
     private Date createdAt;
 
     /**
@@ -345,7 +355,7 @@ public class Order implements Serializable {
         if (getClass() != that.getClass()) {
             return false;
         }
-        Order other = (Order) that;
+        Orders other = (Orders) that;
         return (this.getId() == null ? other.getId() == null : this.getId().equals(other.getId()))
             && (this.getUserId() == null ? other.getUserId() == null : this.getUserId().equals(other.getUserId()))
             && (this.getProductId() == null ? other.getProductId() == null : this.getProductId().equals(other.getProductId()))

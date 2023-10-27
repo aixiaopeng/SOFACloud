@@ -2,7 +2,7 @@ package com.controller;
 
 import com.alipay.sofa.runtime.api.annotation.SofaReference;
 import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
-import com.entity.Order;
+import com.entity.Orders;
 import com.entity.dto.OrderDTO;
 import com.result.Result;
 import com.service.BankCardService;
@@ -24,7 +24,7 @@ public class OrderCotroller {
     private BankCardService bankCardService;
 
     @PostMapping("/add")
-    public Result addOrder(@RequestBody Order order){
+    public Result addOrder(@RequestBody Orders order){
         return Result.ok(orderService.addOrder(order));
     }
 
@@ -36,8 +36,8 @@ public class OrderCotroller {
     }
 
     @PostMapping("/pay")
-    public Result payment(@RequestBody Long bankCart, BigDecimal price){
-       Boolean flag= bankCardService.recharge(bankCart,price);
+    public Result payment(@RequestBody Long bankCart, OrderDTO orderDTO){
+       Boolean flag= bankCardService.comsume(bankCart,orderDTO);
        if (flag){
            return Result.ok("交易成功");
        }else {

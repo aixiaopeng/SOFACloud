@@ -2,6 +2,7 @@ package com.controller;
 
 import com.baomidou.mybatisplus.extension.api.R;
 import com.entity.BankCard;
+import com.entity.dto.OrderDTO;
 import com.result.Result;
 import com.service.BankCardService;
 import com.utils.NowTime;
@@ -9,6 +10,7 @@ import lombok.val;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -39,8 +41,8 @@ public class BankCardController {
 
 
     @GetMapping("/consume")
-    public Result consume(@RequestParam Long bankCardId, @RequestParam BigDecimal price){
-       Boolean flag=  bankCardService.consume(bankCardId,price);
+    public Result consume(HttpServletRequest request, @RequestParam Long bankCardId, @RequestParam OrderDTO orderDTO){
+       Boolean flag=  bankCardService.consume(request,bankCardId,orderDTO);
         if(flag){
             return Result.ok("交易成功");
         }else {

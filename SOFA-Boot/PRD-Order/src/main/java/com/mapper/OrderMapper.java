@@ -1,6 +1,6 @@
 package com.mapper;
 
-import com.entity.Order;
+import com.entity.Orders;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @createDate 2023-10-24 11:48:38
 * @Entity com.entity.Order
 */
-public interface OrderMapper extends BaseMapper<Order> {
+public interface OrderMapper extends BaseMapper<Orders> {
 
 }
 

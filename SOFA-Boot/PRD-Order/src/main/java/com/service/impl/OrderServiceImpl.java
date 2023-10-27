@@ -1,25 +1,20 @@
 package com.service.impl;
 
-import com.alipay.sofa.runtime.api.annotation.SofaReference;
-import com.alipay.sofa.runtime.api.annotation.SofaReferenceBinding;
 import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.entity.Order;
+import com.entity.Orders;
 import com.entity.dto.OrderDTO;
 import com.entity.vo.LoginUser;
 import com.entity.vo.OrderVO;
-import com.service.BankCardService;
 import com.service.OrderService;
 import com.mapper.OrderMapper;
-import com.sun.org.apache.xpath.internal.operations.Or;
+import com.utils.JwtUtil;
 import com.utils.SnowflakeIdWorker;
-import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
-
-import java.math.BigDecimal;
 
 /**
 * @author 15012
@@ -27,43 +22,75 @@ import java.math.BigDecimal;
 * @createDate 2023-10-24 11:48:38
 */
 @Service
-public class OrderServiceImpl extends ServiceImpl<OrderMapper, Order>
+public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders>
     implements OrderService{
 
     @Autowired
     private OrderMapper orderMapper;
 
+    @Autowired
+    private RedisTemplate redisTemplate;
+
 
 
     @Override
-    public Page<Order> listAllOrders(int page, int pageSize) {
+    public Page<Orders> listAllOrders(int page, int pageSize) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         LoginUser userDetails= (LoginUser) principal;
         Long userId=userDetails.getUserId();
 
 
-        Page<Order> Page = new Page<>(page, pageSize);
-        Page<Order> orderPage = new LambdaQueryChainWrapper<>(orderMapper).isNull(Order::getDeletedAt).eq(Order::getUserId,userId).page(Page);
+        Page<Orders> Page = new Page<>(page, pageSize);
+        Page<Orders> orderPage = new LambdaQueryChainWrapper<>(orderMapper).isNull(Orders::getDeletedAt).eq(Orders::getUserId,userId).page(Page);
 
         return orderPage;
     }
 
     @Override
-    public Order addOrder(Order order) {
+    public OrderVO addOrder(Orders order) {
         Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         LoginUser userDetails= (LoginUser) principal;
         Long userId=userDetails.getUserId();
-        Long id=SnowflakeIdWorker.snowFlake();
+
         //存入数据库
-        order.setId(id);
+        Long orderNum=SnowflakeIdWorker.snowFlake();
+
+        order.setOrderNum(orderNum);
         order.setUserId(userId);
         order.setUserName(userDetails.getUsername());
         order.setPhone(userDetails.getPhone());
         order.setStatus("0");
-        orderMapper.insert(order);
+        try {
+            this.save(order);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
-        Order order1= orderMapper.selectById(id);
-        return order1;
+       Orders orders= new LambdaQueryChainWrapper<>(orderMapper).eq(Orders::getUserId,userId).eq(Orders::getProductId,order.getProductId()).eq(Orders::getCreatedAt,order.getCreatedAt()).one();
+
+        //生成token返回前端
+      String orderToken=  JwtUtil.createJWT(orderNum.toString());
+
+
+
+        OrderVO orderDTO=new OrderVO();
+        orderDTO.setOrderToken(orderToken);
+
+
+        orderDTO.setUserName(order.getUserName());
+        orderDTO.setPhone(order.getPhone());
+        orderDTO.setAddr(order.getAddr());
+
+
+        orderDTO.setPrice(order.getPrice());
+        orderDTO.setProductName(order.getProductName());
+        orderDTO.setDiscountPrice(order.getDiscountprice());
+
+        orderDTO.setCreatedAt(order.getCreatedAt());
+
+
+
+        return orderDTO;
 
 
 

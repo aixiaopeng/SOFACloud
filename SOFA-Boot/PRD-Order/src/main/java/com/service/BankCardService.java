@@ -2,6 +2,7 @@ package com.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.entity.BankCard;
+import com.entity.dto.OrderDTO;
 
 import java.math.BigDecimal;
 
@@ -12,7 +13,7 @@ import java.math.BigDecimal;
 */
 public interface BankCardService extends IService<BankCard> {
 
-    Boolean recharge(Long bankCardId, BigDecimal price);
+    Boolean comsume(Long bankCardId, OrderDTO orderDTO);
 
 
 }
